@@ -39,7 +39,7 @@ const T = {
     lang: 'EN', flag: '🇬🇧',
     tagline: 'In the Name of the Father, Son & Holy Spirit',
     subtitle: 'Two Hearts, Two Cultures, One Love in Christ',
-    invite: 'humbly request your presence and prayers as they unite in the Sacrament of Holy Matrimony',
+    invite: 'humbly request your presence and prayers as they unite in the Sacrament of Holy Matrimony across two celebrations',
     scroll: 'Continue your journey with us',
     nav: { rwanda: 'Rwanda', accommodation: 'Stay', flights: 'Flights', gallery: 'Gallery', rsvp: 'RSVP' },
     countdown: { days: 'Days', hours: 'Hours', mins: 'Minutes', secs: 'Seconds', until: 'Until the Rwanda Ceremony' },
@@ -73,8 +73,7 @@ const T = {
       { name: 'RwandAir', code: 'WB', price: '£850–£1,100', duration: '~8h 30m', route: 'Direct (Heathrow → Kigali)', stops: 'Non-stop', color: 'blue', flag: '🇷🇼', note: 'National carrier of Rwanda — direct route, often best option for this journey.' },
       { name: 'Ethiopian Airways', code: 'ET', price: '£650–£900', duration: '~11–13h', route: 'Via Addis Ababa (ADD)', stops: '1 stop', color: 'amber', flag: '🇪🇹', note: 'Excellent African carrier with reliable connections through Addis Ababa Bole Airport.' },
       { name: 'Kenya Airways', code: 'KQ', price: '£700–£950', duration: '~12–14h', route: 'Via Nairobi (NBO)', stops: '1 stop', color: 'rose', flag: '🇰🇪', note: 'Good connections via Jomo Kenyatta International Airport, Nairobi.' },
-      { name: 'Brussels Airlines', code: 'SN', price: '£450–£700', duration: '~10–11h', route: 'Via Brussels (BRU)', stops: '1 stop', color: 'purple', flag: '🇧🇪', note: 'Connects through Brussels Airport with strong African network.' },
-      { name: 'Turkish Airlines', code: 'TK', price: '£600–£900', duration: '~12–14h', route: 'Via Istanbul (IST)', stops: '1 stop', color: 'red', flag: '🇹🇷', note: 'Connects through Istanbul Airport — one of the largest hubs in the world with frequent onward services to Kigali.' },
+      { name: 'Brussels Airlines', code: 'SN', price: '£750–£1,050', duration: '~10–11h', route: 'Via Brussels (BRU)', stops: '1 stop', color: 'purple', flag: '🇧🇪', note: 'Connects through Brussels Airport with strong African network.' },
     ],
     flightsPriceNote: '* All prices are estimated return fares from London Heathrow. Book early for best rates. Group discounts are being arranged — watch the WhatsApp group for updates.',
     summer: 'Summer 2027', timeTBA: 'Time TBA',
@@ -105,7 +104,7 @@ const T = {
       accommodationPref: 'Accommodation Preference',
       accommodationOptions: ['Galileo Stadium Hotel (paid — group rate being arranged)', 'Free Community Accommodation at CSMCJ Mission House', 'Other (please specify below)'],
       airlinePref: 'Preferred Airline',
-      airlineOptions: ['RwandAir', 'Ethiopian Airways', 'Kenya Airways', 'Brussels Airlines', 'Turkish Airlines', 'Other / Not yet decided'],
+      airlineOptions: ['RwandAir', 'Ethiopian Airways', 'Kenya Airways', 'Brussels Airlines', 'Other / Not yet decided'],
       baggageLabel: 'Extra Baggage Allowance',
       baggageQuestion: 'Do you think you will have extra baggage allowance to carry donations?',
       baggageYes: 'Yes — I may have extra baggage',
@@ -134,7 +133,7 @@ const T = {
     lang: 'PT', flag: '🇵🇹',
     tagline: 'Em Nome do Pai, do Filho e do Espírito Santo',
     subtitle: 'Dois Corações, Duas Culturas, Um Amor em Cristo',
-    invite: 'pedem humildemente a vossa presença e orações enquanto se unem no Sacramento do Santo Matrimônio',
+    invite: 'pedem humildemente a vossa presença e orações enquanto se unem no Sacramento do Santo Matrimônio em duas celebrações',
     scroll: 'Continue a jornada connosco',
     nav: { rwanda: 'Ruanda', accommodation: 'Alojamento', flights: 'Voos', gallery: 'Galeria', rsvp: 'RSVP' },
     countdown: { days: 'Dias', hours: 'Horas', mins: 'Minutos', secs: 'Segundos', until: 'Até à Cerimónia no Ruanda' },
@@ -168,8 +167,7 @@ const T = {
       { name: 'RwandAir', code: 'WB', price: '£850–£1.100', duration: '~8h 30m', route: 'Direto (Heathrow → Kigali)', stops: 'Sem escalas', color: 'blue', flag: '🇷🇼', note: 'Transportadora nacional do Ruanda — rota direta, frequentemente a melhor opção.' },
       { name: 'Ethiopian Airways', code: 'ET', price: '£650–£900', duration: '~11–13h', route: 'Via Adis Abeba (ADD)', stops: '1 escala', color: 'amber', flag: '🇪🇹', note: 'Excelente transportadora africana com ligações fiáveis através do Aeroporto de Adis Abeba.' },
       { name: 'Kenya Airways', code: 'KQ', price: '£700–£950', duration: '~12–14h', route: 'Via Nairóbi (NBO)', stops: '1 escala', color: 'rose', flag: '🇰🇪', note: 'Boas ligações via Aeroporto Internacional Jomo Kenyatta, Nairóbi.' },
-      { name: 'Brussels Airlines', code: 'SN', price: '£450–£700', duration: '~10–11h', route: 'Via Bruxelas (BRU)', stops: '1 escala', color: 'purple', flag: '🇧🇪', note: 'Ligações através do Aeroporto de Bruxelas com forte rede africana.' },
-      { name: 'Turkish Airlines', code: 'TK', price: '£600–£900', duration: '~12–14h', route: 'Via Istambul (IST)', stops: '1 escala', color: 'red', flag: '🇹🇷', note: 'Ligações através do Aeroporto de Istambul — um dos maiores hubs do mundo com serviços frequentes para Kigali.' },
+      { name: 'Brussels Airlines', code: 'SN', price: '£750–£1.050', duration: '~10–11h', route: 'Via Bruxelas (BRU)', stops: '1 escala', color: 'purple', flag: '🇧🇪', note: 'Ligações através do Aeroporto de Bruxelas com forte rede africana.' },
     ],
     flightsPriceNote: '* Todos os preços são tarifas de regresso estimadas de Londres Heathrow. Reserve cedo para melhores preços. Estão a ser negociados descontos de grupo.',
     summer: 'Verão de 2027', timeTBA: 'Hora a Confirmar',
@@ -200,7 +198,7 @@ const T = {
       accommodationPref: 'Preferência de Alojamento',
       accommodationOptions: ['Galileo Stadium Hotel (pago — tarifa de grupo a confirmar)', 'Alojamento Gratuito na Casa de Missão CSMCJ', 'Outro (especifique abaixo)'],
       airlinePref: 'Companhia Aérea Preferida',
-      airlineOptions: ['RwandAir', 'Ethiopian Airways', 'Kenya Airways', 'Brussels Airlines', 'Turkish Airlines', 'Outra / Ainda não decidi'],
+      airlineOptions: ['RwandAir', 'Ethiopian Airways', 'Kenya Airways', 'Brussels Airlines', 'Outra / Ainda não decidi'],
       baggageLabel: 'Franquia de Bagagem Extra',
       baggageQuestion: 'Acha que terá franquia de bagagem extra para transportar donativos?',
       baggageYes: 'Sim — posso ter bagagem extra',
@@ -447,7 +445,7 @@ const WEB3FORMS_KEY = '8ebd7fe2-03a7-4898-ad40-dea3fa2bda0a';
 
 function RSVPForm({ t }) {
   const tf = t.rsvpForm;
-  const [form, setForm] = useState({ name: '', email: '', rwanda: false, mission: false, guests: '', dietary: '', prayers: '', accommodationPref: '', accommodationOther: '', airlinePref: '', hasExtraBaggage: '', extraBaggageKg: '' });
+  const [form, setForm] = useState({ name: '', email: '', rwanda: false, mission: false, guests: '', dietary: '', prayers: '', accommodationPref: '', airlinePref: '', hasExtraBaggage: '', extraBaggageKg: '' });
   const [status, setStatus] = useState('idle');
 
   const handle = e => {
@@ -517,12 +515,6 @@ function RSVPForm({ t }) {
             </label>
           ))}
         </div>
-        {form.accommodationPref === tf.accommodationOptions[2] && (
-          <div className="mt-3">
-            <label className="block text-gray-600 tracking-widest uppercase text-xs mb-2">Please specify</label>
-            <input name="accommodationOther" value={form.accommodationOther} onChange={handle} className="rsvp-input" placeholder="e.g. Staying with friends, another hotel…" />
-          </div>
-        )}
       </div>
 
       {/* Airline Preference */}
@@ -818,8 +810,30 @@ export default function App() {
             <p className="text-emerald-700 tracking-[0.3em] uppercase text-sm font-light">{t.accommodationSub}</p>
           </Reveal>
 
-          {/* Free Community Accommodation — shown first */}
+          {/* Galileo — top pick */}
           <Reveal delay={100} className="mb-16">
+            <div className="bg-white rounded-[2rem] p-10 shadow-2xl border-2 border-amber-300 max-w-4xl mx-auto relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-40 h-40 bg-amber-50 rounded-full -translate-y-20 translate-x-20" />
+              <div className="relative z-10">
+                <div className="flex items-center space-x-4 mb-6">
+                  <div className="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center shrink-0"><Star className="w-7 h-7 text-amber-600" /></div>
+                  <div>
+                    <p className="text-amber-700 tracking-widest uppercase text-xs font-medium mb-1">{t.galileoTitle}</p>
+                    <h3 className="text-3xl font-thin text-gray-800 italic">{t.galileoName}</h3>
+                  </div>
+                </div>
+                <p className="text-gray-600 leading-relaxed mb-6">{t.galileoNote}</p>
+                <a href={t.galileoUrl} target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-2 bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-xl tracking-widest uppercase text-xs transition-all"
+                  style={{ transition: 'all 0.3s' }}>
+                  <Globe className="w-4 h-4" /><span>Visit Website</span>
+                </a>
+              </div>
+            </div>
+          </Reveal>
+
+          {/* Free Community Accommodation */}
+          <Reveal delay={150} className="mb-16">
             <div className="bg-white rounded-[2rem] p-10 shadow-2xl border border-emerald-200 max-w-4xl mx-auto relative overflow-hidden">
               <div className="absolute top-0 left-0 w-32 h-32 bg-emerald-50 rounded-full -translate-y-16 -translate-x-16" />
               <div className="relative z-10">
@@ -854,35 +868,14 @@ export default function App() {
             </div>
           </Reveal>
 
-          {/* Galileo — top paid pick */}
-          <Reveal delay={150} className="mb-16">
-            <div className="bg-white rounded-[2rem] p-10 shadow-2xl border-2 border-amber-300 max-w-4xl mx-auto relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-40 h-40 bg-amber-50 rounded-full -translate-y-20 translate-x-20" />
-              <div className="relative z-10">
-                <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center shrink-0"><Star className="w-7 h-7 text-amber-600" /></div>
-                  <div>
-                    <p className="text-amber-700 tracking-widest uppercase text-xs font-medium mb-1">{t.galileoTitle}</p>
-                    <h3 className="text-3xl font-thin text-gray-800 italic">{t.galileoName}</h3>
-                  </div>
-                </div>
-                <p className="text-gray-600 leading-relaxed mb-6">{t.galileoNote}</p>
-                <a href={t.galileoUrl} target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-2 bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-xl tracking-widest uppercase text-xs transition-all"
-                  style={{ transition: 'all 0.3s' }}>
-                  <Globe className="w-4 h-4" /><span>Visit Website</span>
-                </a>
-              </div>
-            </div>
-          </Reveal>
-
           {/* Other Hotels */}
           <Reveal delay={200}>
             <h3 className="text-3xl font-thin text-gray-700 italic text-center mb-10">{t.otherHotels}</h3>
-            <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               {[
-                { name: 'Credo Hotel', rating: '3.9★', highlight: 'Pool & restaurant, close to main road', booking: 'https://www.credohotel.rw/' },
-                { name: 'Irebero Boutique Hotel', rating: '4.3★', highlight: 'Intimate, near Ethnography Museum', booking: 'https://www.booking.com/hotel/rw/irebero-boutique.en-gb.html' },
+                { name: 'Credo Hotel', rating: '3.9★', highlight: 'Pool & restaurant, close to main road', booking: 'https://www.booking.com/hotel/rw/credo.html' },
+                { name: 'Hotel Mont Huye', rating: '3.6★', highlight: 'Central location, great value', booking: 'https://www.booking.com/searchresults.html?ss=Butare' },
+                { name: 'Irebero Boutique Hotel', rating: '4.3★', highlight: 'Intimate, near Ethnography Museum', booking: 'https://www.airbnb.com/s/Huye--Rwanda/homes' },
               ].map(({ name, rating, highlight, booking }, i) => (
                 <Reveal key={i} delay={i * 80} direction="up">
                   <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 flex flex-col"
@@ -894,7 +887,7 @@ export default function App() {
                     <p className="text-gray-500 text-sm mb-4 flex-1">{highlight}</p>
                     <a href={booking} target="_blank" rel="noopener noreferrer"
                       className="text-center text-xs tracking-widest uppercase text-emerald-700 border border-emerald-300 rounded-lg py-2 px-4 hover:bg-emerald-50 transition-colors">
-                      Visit Website
+                      Search on Booking / Airbnb
                     </a>
                   </div>
                 </Reveal>
@@ -914,8 +907,8 @@ export default function App() {
             <p className="text-gray-500 text-sm max-w-2xl mx-auto">{t.flightsDates}</p>
           </Reveal>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            {t.airlines.slice(0, 4).map(({ name, price, duration, route, stops, color, flag, note }, i) => (
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            {t.airlines.map(({ name, price, duration, route, stops, color, flag, note }, i) => (
               <Reveal key={name} direction={i % 2 === 0 ? 'left' : 'right'} delay={i * 100}>
                 <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 relative overflow-hidden"
                   style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}
@@ -953,48 +946,6 @@ export default function App() {
             ))}
           </div>
 
-          {/* Turkish Airlines — centred on its own row */}
-          <div className="flex justify-center mb-12">
-            <div className="w-full md:w-1/2">
-              {t.airlines.slice(4).map(({ name, price, duration, route, stops, color, flag, note }) => (
-                <Reveal key={name} direction="up" delay={400}>
-                  <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 relative overflow-hidden"
-                    style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}
-                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.08)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}>
-                    <div className={`absolute top-0 right-0 w-24 h-24 bg-${color}-50 rounded-full -translate-y-12 translate-x-12`} />
-                    <div className="relative z-10">
-                      <div className="flex items-center justify-between mb-4">
-                        <div className="flex items-center space-x-3">
-                          <span className="text-3xl">{flag}</span>
-                          <h3 className={`text-2xl font-thin text-${color}-900 italic`}>{name}</h3>
-                        </div>
-                        <span className={`text-xs tracking-widest uppercase bg-${color}-100 text-${color}-700 px-3 py-1 rounded-full`}>{stops}</span>
-                      </div>
-                      <div className="space-y-3 mb-4">
-                        <div className="flex items-center justify-between">
-                          <span className="text-gray-500 text-sm">Est. Return Fare</span>
-                          <span className={`text-${color}-700 font-medium`}>{price}</span>
-                        </div>
-                        <div className="flex items-center justify-between">
-                          <span className="text-gray-500 text-sm">Journey Time</span>
-                          <span className="text-gray-700">{duration}</span>
-                        </div>
-                        <div className="flex items-center justify-between">
-                          <span className="text-gray-500 text-sm">Route</span>
-                          <span className="text-gray-700 text-right text-sm">{route}</span>
-                        </div>
-                      </div>
-                      <div className={`bg-${color}-50 rounded-xl p-4`}>
-                        <p className={`text-${color}-700 text-sm italic`}>{note}</p>
-                      </div>
-                    </div>
-                  </div>
-                </Reveal>
-              ))}
-            </div>
-          </div>
-
           <Reveal delay={300}>
             <div className="bg-rose-50 rounded-2xl p-8 max-w-3xl mx-auto text-center space-y-4">
               <HandHeart className="w-8 h-8 text-rose-500 mx-auto float" />
@@ -1008,6 +959,42 @@ export default function App() {
         </div>
       </div>
 
+      {/* ── JOURNEY ── */}
+      <div className="section-transition relative py-32 px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <Reveal className="text-center mb-20">
+            <div className="flex items-center justify-center space-x-6 mb-8"><div className="w-16 h-px bg-gray-300" /><Users className="w-8 h-8 text-gray-600" /><div className="w-16 h-px bg-gray-300" /></div>
+            <h2 className="text-5xl font-thin text-gray-800 italic mb-4">{t.journey}</h2>
+            <p className="text-gray-500 text-lg font-light">{t.journeySub}</p>
+          </Reveal>
+          <div className="max-w-2xl mx-auto">
+            {t.journeyItems.map(({ color, title, items, note }, i) => (
+              <Reveal key={title} direction="up" delay={100}>
+                <div className="bg-white rounded-[2rem] p-12 shadow-2xl border border-gray-100 relative overflow-hidden"
+                  style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}
+                  onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-6px)'; e.currentTarget.style.boxShadow = '0 32px 64px rgba(0,0,0,0.1)'; }}
+                  onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}>
+                  <div className={`absolute top-0 right-0 w-40 h-40 bg-${color}-50 rounded-full -translate-y-20 translate-x-20`} />
+                  <div className="relative z-10">
+                    <h3 className={`text-3xl font-thin text-${color}-900 italic mb-8`}>{title}</h3>
+                    <div className="space-y-6 text-gray-600">
+                      {items.map(([label, value]) => (
+                        <div key={label} className="flex items-start space-x-4">
+                          <div className={`w-2 h-2 bg-${color}-400 rounded-full mt-2 shrink-0`} />
+                          <div><p className="font-medium text-gray-800">{label}</p><p className="text-gray-500">{value}</p></div>
+                        </div>
+                      ))}
+                    </div>
+                    <div className={`bg-${color}-50 rounded-xl p-5 mt-8`}>
+                      <p className={`text-${color}-700 italic`}>{note}</p>
+                    </div>
+                  </div>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </div>
 
       {/* ── GALLERY ── */}
       <div id="gallery" className="section-transition py-32 px-4 bg-gradient-to-b from-neutral-50 to-white">
@@ -1067,7 +1054,7 @@ export default function App() {
           <Reveal className="text-center mb-16">
             <div className="flex items-center justify-center space-x-6 mb-8"><div className="w-16 h-px bg-gray-400" /><Flower2 className="w-8 h-8 text-gray-600 float-slow" /><Cross className="w-7 h-7 text-gray-500 float" /><div className="w-16 h-px bg-gray-400" /></div>
             <h2 className="text-5xl font-thin text-gray-800 italic mb-4">{t.rsvpTitle}</h2>
-            <p className="text-rose-600 text-base font-medium tracking-wide mt-2">Please respond by <strong className="font-bold text-rose-700">1st August 2026</strong></p>
+            <p className="text-gray-500 tracking-widest uppercase text-sm">{t.rsvpDeadline}</p>
           </Reveal>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {t.rsvpContacts.map(({ color, title, email, phone }, i) => (

@@ -39,9 +39,9 @@ const T = {
     lang: 'EN', flag: '🇬🇧',
     tagline: 'In the Name of the Father, Son & Holy Spirit',
     subtitle: 'Two Hearts, Two Cultures, One Love in Christ',
-    invite: 'humbly request your presence and prayers as they unite in the Sacrament of Holy Matrimony',
+    invite: 'humbly request your presence and prayers as they unite in the Sacrament of Holy Matrimony across two celebrations',
     scroll: 'Continue your journey with us',
-    nav: { rwanda: 'Rwanda', accommodation: 'Stay', flights: 'Flights', gallery: 'Gallery', rsvp: 'RSVP' },
+    nav: { rwanda: 'Rwanda', portugal: 'Portugal', gallery: 'Gallery', rsvp: 'RSVP' },
     countdown: { days: 'Days', hours: 'Hours', mins: 'Minutes', secs: 'Seconds', until: 'Until the Rwanda Ceremony' },
     rwanda: 'Holy Matrimony', rwandaSub: 'Rwanda — Land of a Thousand Hills',
     mission: 'Mission', missionSub: 'Before our wedding celebration',
@@ -54,33 +54,16 @@ const T = {
     missionNote: 'Optional participation for wedding guests who feel called to this mission of mercy.',
     dressRwanda: 'Dress Code: Traditional or Formal',
     dressRwandaDesc: 'Experience a beautiful Catholic ceremony in the Land of a Thousand Hills. Food reception and celebration to follow at the community.',
-    groundsRules: 'Community Grounds Rules',
-    groundsRulesItems: ['No alcohol on the premises', 'Modest and non-revealing clothing at all times', 'Respect the prayerful atmosphere of the mission'],
-    accommodationTitle: 'Where to Stay', accommodationSub: 'Accommodation options in Butare, Rwanda',
-    galileoTitle: '⭐ Our Top Recommendation', galileoName: 'Galileo Stadium Hotel', galileoNote: 'Closest hotel to the wedding venue. We are currently negotiating a group discount rate — please contact Cormac or Mary for the latest pricing.',
-    galileoUrl: 'https://galileostadiumhotel.com/',
-    communityTitle: 'Free Accommodation — CSMCJ Mission House',
-    communityDesc: 'The Sisters of the Congregation of the Servants of Mary of the Heart of Jesus (CSMCJ), within whose community grounds the wedding is taking place, have generously offered free accommodation within the grounds for all wedding guests.',
-    communityDetails: ['Shared rooms: 4–5 people per room', 'Private toilet facilities included', 'Separate rooms: male-only / female-only / families', 'Located within the wedding venue grounds'],
-    communityRules: '⚠️ Please note: Community Ground Rules apply',
-    communityRulesItems: ['No alcohol on the premises', 'Modest and non-revealing clothing must be worn at all times', 'Respect the prayerful atmosphere of the mission community'],
-    otherHotels: 'Other Hotels in Butare',
-    flightsTitle: 'Getting There', flightsSub: 'Flights from London Heathrow to Kigali (RWI/KGL)',
-    flightsDates: 'Indicative dates: Friday 28th May – Sunday 6th June 2027 (approx. 9 days)',
-    flightsGroupNote: 'We are exploring group discount rates with each airline. If you have extra baggage allowance, please contact Cormac or Mary — we would love to fill it with donations for the mission!',
-    flightsContactBaggage: 'Have extra baggage? Contact Cormac (+353 851094610) or Mary (+44 7729 361640)',
-    airlines: [
-      { name: 'RwandAir', code: 'WB', price: '£850–£1,100', duration: '~8h 30m', route: 'Direct (Heathrow → Kigali)', stops: 'Non-stop', color: 'blue', flag: '🇷🇼', note: 'National carrier of Rwanda — direct route, often best option for this journey.' },
-      { name: 'Ethiopian Airways', code: 'ET', price: '£650–£900', duration: '~11–13h', route: 'Via Addis Ababa (ADD)', stops: '1 stop', color: 'amber', flag: '🇪🇹', note: 'Excellent African carrier with reliable connections through Addis Ababa Bole Airport.' },
-      { name: 'Kenya Airways', code: 'KQ', price: '£700–£950', duration: '~12–14h', route: 'Via Nairobi (NBO)', stops: '1 stop', color: 'rose', flag: '🇰🇪', note: 'Good connections via Jomo Kenyatta International Airport, Nairobi.' },
-      { name: 'Brussels Airlines', code: 'SN', price: '£450–£700', duration: '~10–11h', route: 'Via Brussels (BRU)', stops: '1 stop', color: 'purple', flag: '🇧🇪', note: 'Connects through Brussels Airport with strong African network.' },
-      { name: 'Turkish Airlines', code: 'TK', price: '£600–£900', duration: '~12–14h', route: 'Via Istanbul (IST)', stops: '1 stop', color: 'red', flag: '🇹🇷', note: 'Connects through Istanbul Airport — one of the largest hubs in the world with frequent onward services to Kigali.' },
-    ],
-    flightsPriceNote: '* All prices are estimated return fares from London Heathrow. Book early for best rates. Group discounts are being arranged — watch the WhatsApp group for updates.',
+    dressPortugal: 'Dress Code: Elegant',
+    dressPortugalDesc: 'A festive reception with traditional Portuguese cuisine, music, and dancing to honour our holy matrimony.',
+    transitionTitle: 'Then celebrate with us in Portugal',
+    transitionSub: 'for our Wedding Celebration',
+    portugal: 'Wedding Celebration in Portugal', portugalSub: 'Torre de Dona Chama, Bragança',
     summer: 'Summer 2027', timeTBA: 'Time TBA',
     journey: 'Journey Information', journeySub: 'Join us for this unique celebration of love and faith',
     journeyItems: [
-      { color: 'amber', title: 'Rwanda', items: [['Airport', 'Kigali International Airport (KGL)'], ['Dates', '28th May – 6th June 2027'], ['RSVP', 'By 1st August 2026 — guests added to WhatsApp group for coordination.']], note: 'Experience the warmth of Rwandan hospitality' },
+      { color: 'amber', title: 'Rwanda', items: [['Airport', 'Kigali International Airport'], ['Dates', '28th May – 6th June 2027'], ['RSVP', 'By 1st August 2026 — guests added to WhatsApp group for coordination.']], note: 'Experience the warmth of Rwandan hospitality' },
+      { color: 'blue',  title: 'Portugal', items: [['Airport', 'Porto Airport'], ['Dates', 'TBC — Summer 2027'], ['RSVP', 'By 1st August 2026 — guests added to WhatsApp group for coordination.']], note: 'Experience the beauty of Northern Portuguese culture' },
     ],
     gallery: 'Our Story in Images', galleryHint: 'Click any image to explore',
     gifts: 'Gifts of Love & Service',
@@ -98,22 +81,10 @@ const T = {
       { color: 'blue',  title: 'Irish & all other guests',      email: 'comckennaa@gmail.com',  phone: '+353 851094610' },
     ],
     rsvpForm: { name: 'Full Name', email: 'Email Address', attending: 'Which celebration(s) will you attend?',
-      rwanda: 'Rwanda Ceremony (June 2027)',
+      rwanda: 'Rwanda Ceremony (June 2027)', portugal: 'Portugal Celebration (Summer 2027)',
       mission: 'I would like to join the Mission', dietary: 'Dietary Requirements / Accessibility Needs',
       guests: 'Names of Guests Attending', guestsPlaceholder: 'e.g. John Smith, Jane Smith',
-      prayers: 'Special Prayer Intentions',
-      accommodationPref: 'Accommodation Preference',
-      accommodationOptions: ['Galileo Stadium Hotel (paid — group rate being arranged)', 'Free Community Accommodation at CSMCJ Mission House', 'Other (please specify below)'],
-      airlinePref: 'Preferred Airline',
-      airlineOptions: ['RwandAir', 'Ethiopian Airways', 'Kenya Airways', 'Brussels Airlines', 'Turkish Airlines', 'Other / Not yet decided'],
-      baggageLabel: 'Extra Baggage Allowance',
-      baggageQuestion: 'Do you think you will have extra baggage allowance to carry donations?',
-      baggageYes: 'Yes — I may have extra baggage',
-      baggageNo: 'No — I will not have extra baggage',
-      baggageKg: 'If yes, approximately how many extra kg do you expect to have available?',
-      baggageKgPlaceholder: 'e.g. 10 kg',
-      baggageNote: '🙏 Any extra baggage will be filled with donations for the mission community in Rwanda.',
-      submit: 'Send RSVP', sending: 'Sending…', sent: 'RSVP Received! God bless you.' },
+      prayers: 'Special Prayer Intentions', submit: 'Send RSVP', sending: 'Sending…', sent: 'RSVP Received! God bless you.' },
     footer: 'Multiple cultures, one faith, infinite blessings',
     thanks: 'Muito obrigado · Murakoze cyane · Thank you very much · Go raibh míle maith agat',
     footerQuote: '"The Lord bless you and keep you. The Lord shine his face upon you and be gracious to you. The Lord look upon you kindly and give you peace."',
@@ -134,9 +105,9 @@ const T = {
     lang: 'PT', flag: '🇵🇹',
     tagline: 'Em Nome do Pai, do Filho e do Espírito Santo',
     subtitle: 'Dois Corações, Duas Culturas, Um Amor em Cristo',
-    invite: 'pedem humildemente a vossa presença e orações enquanto se unem no Sacramento do Santo Matrimônio',
+    invite: 'pedem humildemente a vossa presença e orações enquanto se unem no Sacramento do Santo Matrimônio em duas celebrações',
     scroll: 'Continue a jornada connosco',
-    nav: { rwanda: 'Ruanda', accommodation: 'Alojamento', flights: 'Voos', gallery: 'Galeria', rsvp: 'RSVP' },
+    nav: { rwanda: 'Ruanda', portugal: 'Portugal', gallery: 'Galeria', rsvp: 'RSVP' },
     countdown: { days: 'Dias', hours: 'Horas', mins: 'Minutos', secs: 'Segundos', until: 'Até à Cerimónia no Ruanda' },
     rwanda: 'Santo Matrimônio', rwandaSub: 'Ruanda — Terra dos Mil Colinas',
     mission: 'Missão', missionSub: 'Antes da nossa celebração de casamento',
@@ -149,33 +120,16 @@ const T = {
     missionNote: 'Participação opcional para convidados do casamento que se sintam chamados a esta missão de misericórdia.',
     dressRwanda: 'Código de Vestuário: Tradicional ou Formal',
     dressRwandaDesc: 'Experiencie uma bela cerimónia católica no Ruanda. Receção com comida e celebração a seguir na comunidade.',
-    groundsRules: 'Regras dos Terrenos da Comunidade',
-    groundsRulesItems: ['Sem álcool nas instalações', 'Roupa modesta e não reveladora em todos os momentos', 'Respeite a atmosfera de oração da missão'],
-    accommodationTitle: 'Onde Ficar', accommodationSub: 'Opções de alojamento em Butare, Ruanda',
-    galileoTitle: '⭐ A Nossa Principal Recomendação', galileoName: 'Galileo Stadium Hotel', galileoNote: 'O hotel mais próximo do local do casamento. Estamos a negociar uma tarifa de grupo — contacte o Cormac ou a Mary para os preços mais recentes.',
-    galileoUrl: 'https://galileostadiumhotel.com/',
-    communityTitle: 'Alojamento Gratuito — Casa de Missão CSMCJ',
-    communityDesc: 'As Irmãs da Congregação das Servas de Maria do Coração de Jesus (CSMCJ), nos terrenos da comunidade onde o casamento terá lugar, ofereceram generosamente alojamento gratuito nos terrenos para todos os convidados.',
-    communityDetails: ['Quartos partilhados: 4–5 pessoas por quarto', 'Instalações sanitárias privativas incluídas', 'Quartos separados: só para homens / só para mulheres / famílias', 'Localizado nos terrenos do local do casamento'],
-    communityRules: '⚠️ Nota: aplicam-se regras dos terrenos da comunidade',
-    communityRulesItems: ['Sem álcool nas instalações', 'Roupa modesta e não reveladora em todos os momentos', 'Respeite a atmosfera de oração da comunidade missionária'],
-    otherHotels: 'Outros Hotéis em Butare',
-    flightsTitle: 'Como Chegar', flightsSub: 'Voos de Londres Heathrow para Kigali (RWI/KGL)',
-    flightsDates: 'Datas indicativas: Sexta-feira 28 de Maio – Domingo 6 de Junho de 2027 (aprox. 9 dias)',
-    flightsGroupNote: 'Estamos a explorar tarifas de grupo com cada companhia aérea. Se tiver franquia de bagagem extra, contacte o Cormac ou a Mary — adoraríamos enchê-la com donativos para a missão!',
-    flightsContactBaggage: 'Tem bagagem extra? Contacte o Cormac (+353 851094610) ou Mary (+44 7729 361640)',
-    airlines: [
-      { name: 'RwandAir', code: 'WB', price: '£850–£1.100', duration: '~8h 30m', route: 'Direto (Heathrow → Kigali)', stops: 'Sem escalas', color: 'blue', flag: '🇷🇼', note: 'Transportadora nacional do Ruanda — rota direta, frequentemente a melhor opção.' },
-      { name: 'Ethiopian Airways', code: 'ET', price: '£650–£900', duration: '~11–13h', route: 'Via Adis Abeba (ADD)', stops: '1 escala', color: 'amber', flag: '🇪🇹', note: 'Excelente transportadora africana com ligações fiáveis através do Aeroporto de Adis Abeba.' },
-      { name: 'Kenya Airways', code: 'KQ', price: '£700–£950', duration: '~12–14h', route: 'Via Nairóbi (NBO)', stops: '1 escala', color: 'rose', flag: '🇰🇪', note: 'Boas ligações via Aeroporto Internacional Jomo Kenyatta, Nairóbi.' },
-      { name: 'Brussels Airlines', code: 'SN', price: '£450–£700', duration: '~10–11h', route: 'Via Bruxelas (BRU)', stops: '1 escala', color: 'purple', flag: '🇧🇪', note: 'Ligações através do Aeroporto de Bruxelas com forte rede africana.' },
-      { name: 'Turkish Airlines', code: 'TK', price: '£600–£900', duration: '~12–14h', route: 'Via Istambul (IST)', stops: '1 escala', color: 'red', flag: '🇹🇷', note: 'Ligações através do Aeroporto de Istambul — um dos maiores hubs do mundo com serviços frequentes para Kigali.' },
-    ],
-    flightsPriceNote: '* Todos os preços são tarifas de regresso estimadas de Londres Heathrow. Reserve cedo para melhores preços. Estão a ser negociados descontos de grupo.',
+    dressPortugal: 'Código de Vestuário: Elegante',
+    dressPortugalDesc: 'Uma receção festiva com culinária portuguesa tradicional, música e dança para honrar o nosso santo matrimônio.',
+    transitionTitle: 'Depois celebre connosco em Portugal',
+    transitionSub: 'para a nossa Celebração de Casamento',
+    portugal: 'Celebração do Casamento em Portugal', portugalSub: 'Torre de Dona Chama, Bragança',
     summer: 'Verão de 2027', timeTBA: 'Hora a Confirmar',
     journey: 'Informações de Viagem', journeySub: 'Junte-se a nós nesta celebração única de amor e fé',
     journeyItems: [
-      { color: 'amber', title: 'Ruanda', items: [['Aeroporto', 'Aeroporto Internacional de Kigali (KGL)'], ['Datas', '28 de Maio – 6 de Junho de 2027'], ['RSVP', 'Até 1 de Agosto de 2026 — convidados adicionados ao grupo WhatsApp para coordenação.']], note: 'Experiencie o calor da hospitalidade ruandesa' },
+      { color: 'amber', title: 'Ruanda', items: [['Aeroporto', 'Aeroporto Internacional de Kigali'], ['Datas', '28 de Maio – 6 de Junho de 2027'], ['RSVP', 'Até 1 de Agosto de 2026 — convidados adicionados ao grupo WhatsApp para coordenação.']], note: 'Experiencie o calor da hospitalidade ruandesa' },
+      { color: 'blue',  title: 'Portugal', items: [['Aeroporto', 'Aeroporto do Porto'], ['Datas', 'A Confirmar — Verão 2027'], ['RSVP', 'Até 1 de Agosto de 2026 — convidados adicionados ao grupo WhatsApp para coordenação.']], note: 'Experiencie a beleza da cultura do Norte de Portugal' },
     ],
     gallery: 'A Nossa História em Imagens', galleryHint: 'Clique em qualquer imagem para explorar',
     gifts: 'Presentes de Amor e Serviço',
@@ -193,22 +147,10 @@ const T = {
       { color: 'blue',  title: 'Convidados domiciliados na Irlanda e outros',  email: 'comckennaa@gmail.com',  phone: '+353 851094610' },
     ],
     rsvpForm: { name: 'Nome Completo', email: 'Endereço de Email', attending: 'A que celebração(ões) irá?',
-      rwanda: 'Cerimónia no Ruanda (Junho 2027)',
+      rwanda: 'Cerimónia no Ruanda (Junho 2027)', portugal: 'Celebração em Portugal (Verão 2027)',
       mission: 'Gostaria de participar na Missão', dietary: 'Requisitos Alimentares / Necessidades de Acessibilidade',
       guests: 'Nomes dos Convidados que Virão', guestsPlaceholder: 'ex: João Silva, Maria Silva',
-      prayers: 'Intenções de Oração Especiais',
-      accommodationPref: 'Preferência de Alojamento',
-      accommodationOptions: ['Galileo Stadium Hotel (pago — tarifa de grupo a confirmar)', 'Alojamento Gratuito na Casa de Missão CSMCJ', 'Outro (especifique abaixo)'],
-      airlinePref: 'Companhia Aérea Preferida',
-      airlineOptions: ['RwandAir', 'Ethiopian Airways', 'Kenya Airways', 'Brussels Airlines', 'Turkish Airlines', 'Outra / Ainda não decidi'],
-      baggageLabel: 'Franquia de Bagagem Extra',
-      baggageQuestion: 'Acha que terá franquia de bagagem extra para transportar donativos?',
-      baggageYes: 'Sim — posso ter bagagem extra',
-      baggageNo: 'Não — não terei bagagem extra',
-      baggageKg: 'Se sim, quantos kg extra aproximadamente?',
-      baggageKgPlaceholder: 'ex: 10 kg',
-      baggageNote: '🙏 Qualquer bagagem extra será preenchida com donativos para a comunidade missionária no Ruanda.',
-      submit: 'Enviar RSVP', sending: 'A enviar…', sent: 'RSVP Recebido! Deus vos abençoe.' },
+      prayers: 'Intenções de Oração Especiais', submit: 'Enviar RSVP', sending: 'A enviar…', sent: 'RSVP Recebido! Deus vos abençoe.' },
     footer: 'Múltiplas culturas, uma fé, bênçãos infinitas',
     thanks: 'Muito obrigado · Murakoze cyane · Thank you · Go raibh míle maith agat',
     footerQuote: '"O Senhor te abençoe e te guarde. O Senhor faça resplandecer o seu rosto sobre ti e tenha misericórdia de ti. O Senhor volte o seu rosto para ti e te dê a paz."',
@@ -447,7 +389,7 @@ const WEB3FORMS_KEY = '8ebd7fe2-03a7-4898-ad40-dea3fa2bda0a';
 
 function RSVPForm({ t }) {
   const tf = t.rsvpForm;
-  const [form, setForm] = useState({ name: '', email: '', rwanda: false, mission: false, guests: '', dietary: '', prayers: '', accommodationPref: '', accommodationOther: '', airlinePref: '', hasExtraBaggage: '', extraBaggageKg: '' });
+  const [form, setForm] = useState({ name: '', email: '', rwanda: false, portugal: false, mission: false, guests: '', dietary: '', prayers: '' });
   const [status, setStatus] = useState('idle');
 
   const handle = e => {
@@ -490,7 +432,7 @@ function RSVPForm({ t }) {
       <div>
         <label className="block text-gray-600 tracking-widest uppercase text-xs mb-4">{tf.attending}</label>
         <div className="space-y-3">
-          {[['rwanda', tf.rwanda, 'amber'], ['mission', tf.mission, 'orange']].map(([key, label, color]) => (
+          {[['rwanda', tf.rwanda, 'amber'], ['portugal', tf.portugal, 'blue'], ['mission', tf.mission, 'orange']].map(([key, label, color]) => (
             <label key={key} className="flex items-center space-x-3 cursor-pointer group">
               <div className={`w-5 h-5 rounded border-2 flex items-center justify-center transition-all ${form[key] ? `bg-${color}-500 border-${color}-500` : 'border-gray-300'}`}
                 style={{ transition: 'all 0.2s' }}>
@@ -501,68 +443,6 @@ function RSVPForm({ t }) {
             </label>
           ))}
         </div>
-      </div>
-
-      {/* Accommodation Preference */}
-      <div>
-        <label className="block text-gray-600 tracking-widest uppercase text-xs mb-3">{tf.accommodationPref}</label>
-        <div className="space-y-2">
-          {tf.accommodationOptions.map((opt, i) => (
-            <label key={i} className="flex items-center space-x-3 cursor-pointer">
-              <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all ${form.accommodationPref === opt ? 'bg-amber-500 border-amber-500' : 'border-gray-300'}`}>
-                {form.accommodationPref === opt && <div className="w-2 h-2 bg-white rounded-full" />}
-              </div>
-              <input type="radio" name="accommodationPref" value={opt} checked={form.accommodationPref === opt} onChange={handle} className="sr-only" />
-              <span className="text-gray-700">{opt}</span>
-            </label>
-          ))}
-        </div>
-        {form.accommodationPref === tf.accommodationOptions[2] && (
-          <div className="mt-3">
-            <label className="block text-gray-600 tracking-widest uppercase text-xs mb-2">Please specify</label>
-            <input name="accommodationOther" value={form.accommodationOther} onChange={handle} className="rsvp-input" placeholder="e.g. Staying with friends, another hotel…" />
-          </div>
-        )}
-      </div>
-
-      {/* Airline Preference */}
-      <div>
-        <label className="block text-gray-600 tracking-widest uppercase text-xs mb-3">{tf.airlinePref}</label>
-        <div className="space-y-2">
-          {tf.airlineOptions.map((opt, i) => (
-            <label key={i} className="flex items-center space-x-3 cursor-pointer">
-              <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all ${form.airlinePref === opt ? 'bg-blue-500 border-blue-500' : 'border-gray-300'}`}>
-                {form.airlinePref === opt && <div className="w-2 h-2 bg-white rounded-full" />}
-              </div>
-              <input type="radio" name="airlinePref" value={opt} checked={form.airlinePref === opt} onChange={handle} className="sr-only" />
-              <span className="text-gray-700">{opt}</span>
-            </label>
-          ))}
-        </div>
-      </div>
-
-      {/* Extra Baggage */}
-      <div className="bg-rose-50 rounded-2xl p-6 space-y-4">
-        <label className="block text-rose-800 tracking-widest uppercase text-xs font-medium">{tf.baggageLabel}</label>
-        <p className="text-gray-600 text-sm italic">{tf.baggageNote}</p>
-        <p className="text-gray-700 text-sm font-medium">{tf.baggageQuestion}</p>
-        <div className="space-y-2">
-          {[[tf.baggageYes, 'yes'], [tf.baggageNo, 'no']].map(([label, val]) => (
-            <label key={val} className="flex items-center space-x-3 cursor-pointer">
-              <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all ${form.hasExtraBaggage === val ? 'bg-rose-500 border-rose-500' : 'border-gray-300'}`}>
-                {form.hasExtraBaggage === val && <div className="w-2 h-2 bg-white rounded-full" />}
-              </div>
-              <input type="radio" name="hasExtraBaggage" value={val} checked={form.hasExtraBaggage === val} onChange={handle} className="sr-only" />
-              <span className="text-gray-700">{label}</span>
-            </label>
-          ))}
-        </div>
-        {form.hasExtraBaggage === 'yes' && (
-          <div>
-            <label className="block text-gray-600 tracking-widest uppercase text-xs mb-2">{tf.baggageKg}</label>
-            <input name="extraBaggageKg" value={form.extraBaggageKg} onChange={handle} className="rsvp-input" placeholder={tf.baggageKgPlaceholder} />
-          </div>
-        )}
       </div>
 
       <div>
@@ -631,7 +511,7 @@ export default function App() {
               ML & CMH
             </button>
             <div className="hidden md:flex items-center space-x-8">
-              {[['rwanda', t.nav.rwanda], ['accommodation', t.nav.accommodation], ['flights', t.nav.flights], ['gallery', t.nav.gallery], ['rsvp', t.nav.rsvp]].map(([id, label]) => (
+              {[['rwanda', t.nav.rwanda], ['portugal', t.nav.portugal], ['gallery', t.nav.gallery], ['rsvp', t.nav.rsvp]].map(([id, label]) => (
                 <button key={id} onClick={() => scrollTo(id)} className="nav-link text-gray-600 hover:text-gray-900">{label}</button>
               ))}
             </div>
@@ -651,7 +531,7 @@ export default function App() {
           </div>
           {mobileOpen && (
             <div className="md:hidden border-t border-gray-100 bg-white/95 px-6 py-4 space-y-4">
-              {[['rwanda', t.nav.rwanda], ['accommodation', t.nav.accommodation], ['flights', t.nav.flights], ['gallery', t.nav.gallery], ['rsvp', t.nav.rsvp]].map(([id, label]) => (
+              {[['rwanda', t.nav.rwanda], ['portugal', t.nav.portugal], ['gallery', t.nav.gallery], ['rsvp', t.nav.rsvp]].map(([id, label]) => (
                 <button key={id} onClick={() => scrollTo(id)} className="block w-full text-left text-gray-700 tracking-widest uppercase text-sm py-2 border-b border-gray-50">
                   {label}
                 </button>
@@ -809,205 +689,98 @@ export default function App() {
         </div>
       </div>
 
-      {/* ── ACCOMMODATION ── */}
-      <div id="accommodation" className="section-transition relative py-32 px-4 bg-gradient-to-b from-emerald-50 to-white overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <Reveal className="text-center mb-20">
-            <div className="flex items-center justify-center space-x-6 mb-8"><div className="w-16 h-px bg-emerald-400" /><House className="w-9 h-9 text-emerald-700 float" /><div className="w-16 h-px bg-emerald-400" /></div>
-            <h2 className="text-5xl md:text-6xl font-thin text-gray-800 mb-4 italic">{t.accommodationTitle}</h2>
-            <p className="text-emerald-700 tracking-[0.3em] uppercase text-sm font-light">{t.accommodationSub}</p>
-          </Reveal>
-
-          {/* Free Community Accommodation — shown first */}
-          <Reveal delay={100} className="mb-16">
-            <div className="bg-white rounded-[2rem] p-10 shadow-2xl border border-emerald-200 max-w-4xl mx-auto relative overflow-hidden">
-              <div className="absolute top-0 left-0 w-32 h-32 bg-emerald-50 rounded-full -translate-y-16 -translate-x-16" />
-              <div className="relative z-10">
-                <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-14 h-14 bg-emerald-100 rounded-full flex items-center justify-center shrink-0"><Cross className="w-7 h-7 text-emerald-700" /></div>
-                  <div>
-                    <span className="inline-block bg-emerald-100 text-emerald-800 text-xs tracking-widest uppercase px-3 py-1 rounded-full mb-2">Free</span>
-                    <h3 className="text-3xl font-thin text-gray-800 italic">{t.communityTitle}</h3>
-                  </div>
-                </div>
-                <p className="text-gray-600 leading-relaxed mb-6">{t.communityDesc}</p>
-                <div className="grid md:grid-cols-2 gap-4 mb-6">
-                  {t.communityDetails.map((detail, i) => (
-                    <div key={i} className="flex items-start space-x-3">
-                      <div className="w-2 h-2 bg-emerald-400 rounded-full mt-2 shrink-0" />
-                      <p className="text-gray-600 text-sm">{detail}</p>
-                    </div>
-                  ))}
-                </div>
-                <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6">
-                  <p className="text-amber-800 font-medium mb-3">{t.communityRules}</p>
-                  <div className="space-y-2">
-                    {t.communityRulesItems.map((rule, i) => (
-                      <div key={i} className="flex items-start space-x-3">
-                        <div className="w-2 h-2 bg-amber-500 rounded-full mt-2 shrink-0" />
-                        <p className="text-amber-800 text-sm">{rule}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Reveal>
-
-          {/* Galileo — top paid pick */}
-          <Reveal delay={150} className="mb-16">
-            <div className="bg-white rounded-[2rem] p-10 shadow-2xl border-2 border-amber-300 max-w-4xl mx-auto relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-40 h-40 bg-amber-50 rounded-full -translate-y-20 translate-x-20" />
-              <div className="relative z-10">
-                <div className="flex items-center space-x-4 mb-6">
-                  <div className="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center shrink-0"><Star className="w-7 h-7 text-amber-600" /></div>
-                  <div>
-                    <p className="text-amber-700 tracking-widest uppercase text-xs font-medium mb-1">{t.galileoTitle}</p>
-                    <h3 className="text-3xl font-thin text-gray-800 italic">{t.galileoName}</h3>
-                  </div>
-                </div>
-                <p className="text-gray-600 leading-relaxed mb-6">{t.galileoNote}</p>
-                <a href={t.galileoUrl} target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-2 bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-xl tracking-widest uppercase text-xs transition-all"
-                  style={{ transition: 'all 0.3s' }}>
-                  <Globe className="w-4 h-4" /><span>Visit Website</span>
-                </a>
-              </div>
-            </div>
-          </Reveal>
-
-          {/* Other Hotels */}
-          <Reveal delay={200}>
-            <h3 className="text-3xl font-thin text-gray-700 italic text-center mb-10">{t.otherHotels}</h3>
-            <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-              {[
-                { name: 'Credo Hotel', rating: '3.9★', highlight: 'Pool & restaurant, close to main road', booking: 'https://www.credohotel.rw/' },
-                { name: 'Irebero Boutique Hotel', rating: '4.3★', highlight: 'Intimate, near Ethnography Museum', booking: 'https://www.booking.com/hotel/rw/irebero-boutique.en-gb.html' },
-              ].map(({ name, rating, highlight, booking }, i) => (
-                <Reveal key={i} delay={i * 80} direction="up">
-                  <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 flex flex-col"
-                    style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}
-                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.08)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}>
-                    <p className="text-yellow-500 text-sm mb-1">{rating}</p>
-                    <h4 className="text-xl font-thin text-gray-800 italic mb-2">{name}</h4>
-                    <p className="text-gray-500 text-sm mb-4 flex-1">{highlight}</p>
-                    <a href={booking} target="_blank" rel="noopener noreferrer"
-                      className="text-center text-xs tracking-widest uppercase text-emerald-700 border border-emerald-300 rounded-lg py-2 px-4 hover:bg-emerald-50 transition-colors">
-                      Visit Website
-                    </a>
-                  </div>
-                </Reveal>
-              ))}
-            </div>
-          </Reveal>
+      {/* ── TRANSITION ── */}
+      <div className="section-transition relative py-20 px-4 bg-white">
+        <div className="max-w-3xl mx-auto text-center space-y-10">
+          <Reveal><div className="flex justify-center items-center space-x-6"><Star className="w-4 h-4 text-blue-400 float" /><div className="w-20 h-px bg-blue-200" /><Cross className="w-7 h-7 text-blue-500 float-slow" /><div className="w-20 h-px bg-blue-200" /><Star className="w-4 h-4 text-blue-400 float" /></div></Reveal>
+          <Reveal delay={150}><h3 className="text-4xl md:text-5xl font-thin text-gray-800 italic">{t.transitionTitle}</h3><p className="text-xl text-gray-500 font-light mt-2">{t.transitionSub}</p></Reveal>
+          <Reveal delay={300}><div className="bg-white/80 rounded-2xl p-7 border border-gray-100 shadow-md max-w-sm mx-auto"><p className="text-lg text-gray-600 italic">{t.bibleTransition}</p><p className="text-gray-400 text-sm mt-1">{t.bibleTransitionRef}</p></div></Reveal>
         </div>
       </div>
 
-      {/* ── FLIGHTS ── */}
-      <div id="flights" className="section-transition relative py-32 px-4 bg-gradient-to-b from-sky-50 to-white">
+      {/* ── PORTUGAL ── */}
+      <div id="portugal" className="section-transition relative bg-gradient-to-b from-slate-50 to-blue-50 overflow-hidden">
+        <div className="absolute inset-0 z-0 opacity-40" style={{ overflow: 'hidden' }}>
+          <ParallaxImg src={portugalVillage} alt="Portugal" className="w-full h-[120%] object-cover -mt-[10%]" strength={0.1} />
+          <div className="absolute inset-0 bg-white/55" />
+        </div>
+        <div className="relative z-10 py-32 px-4">
+          <div className="max-w-7xl mx-auto">
+            <Reveal className="text-center mb-20">
+              <div className="flex items-center justify-center space-x-6 mb-8"><div className="w-16 h-px bg-blue-400" /><div className="relative float"><Heart className="w-10 h-10 text-blue-500 fill-current" /><Cross className="w-4 h-4 text-blue-300 absolute -top-1 -right-1" /></div><div className="w-16 h-px bg-blue-400" /></div>
+              <h2 className="text-5xl md:text-7xl font-thin text-gray-800 mb-4 italic">{t.portugal}</h2>
+              <p className="text-blue-700 tracking-[0.4em] uppercase text-sm font-light">{t.portugalSub}</p>
+            </Reveal>
+            <div className="grid lg:grid-cols-2 gap-20 items-center">
+              <div className="space-y-8">
+                <Reveal direction="left" delay={100}>
+                  <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-10 shadow-2xl border border-white/70">
+                    <div className="space-y-8">
+                      <div className="flex items-center space-x-6"><div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center"><Globe className="w-7 h-7 text-blue-700" /></div><div><p className="text-3xl text-blue-800 font-thin italic">Torre de Dona Chama</p><p className="text-gray-500">Bragança, Portugal</p></div></div>
+                      <div className="grid grid-cols-2 gap-6">
+                        <div className="flex items-center space-x-3"><Calendar className="w-5 h-5 text-blue-500" /><p className="text-gray-800 font-light">{t.summer}</p></div>
+                        <div className="flex items-center space-x-3"><Clock className="w-5 h-5 text-blue-500" /><p className="text-gray-800 font-light">{t.timeTBA}</p></div>
+                      </div>
+                      <div className="border-t border-gray-100 pt-6 flex items-start space-x-3"><MapPin className="w-5 h-5 text-blue-500 mt-1 shrink-0" /><p className="text-gray-700 font-light">Torre de Dona Chama, Bragança</p></div>
+                    </div>
+                  </div>
+                </Reveal>
+                <Reveal direction="left" delay={250}>
+                  <div className="bg-blue-50/80 rounded-2xl p-7">
+                    <p className="text-blue-900 font-medium mb-2">{t.dressPortugal}</p>
+                    <p className="text-gray-600 leading-relaxed">{t.dressPortugalDesc}</p>
+                  </div>
+                </Reveal>
+              </div>
+              <Reveal direction="right" delay={200}>
+                <div className="relative">
+                  <ZoomCard src={portugalVillage} alt="Portugal" className="w-full h-[28rem] object-cover" containerClass="rounded-[2rem] shadow-2xl" onClick={() => setLightboxIdx(3)} />
+                  <div className="absolute -bottom-8 -right-8 w-28 h-28 bg-blue-100 rounded-full opacity-60 float" />
+                  <div className="absolute -top-8 -left-8 w-18 h-18 border-2 border-blue-200 rounded-full opacity-70 float-slow" style={{ width: '4.5rem', height: '4.5rem' }} />
+                  <div className="absolute top-4 right-4 opacity-50 float"><Cross className="w-7 h-7 text-white" /></div>
+                </div>
+              </Reveal>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ── JOURNEY ── */}
+      <div className="section-transition relative py-32 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <Reveal className="text-center mb-20">
-            <div className="flex items-center justify-center space-x-6 mb-8"><div className="w-16 h-px bg-sky-300" /><Globe className="w-9 h-9 text-sky-600 float" /><div className="w-16 h-px bg-sky-300" /></div>
-            <h2 className="text-5xl md:text-6xl font-thin text-gray-800 mb-4 italic">{t.flightsTitle}</h2>
-            <p className="text-sky-700 tracking-[0.3em] uppercase text-sm font-light mb-4">{t.flightsSub}</p>
-            <p className="text-gray-500 text-sm max-w-2xl mx-auto">{t.flightsDates}</p>
+            <div className="flex items-center justify-center space-x-6 mb-8"><div className="w-16 h-px bg-gray-300" /><Users className="w-8 h-8 text-gray-600" /><div className="w-16 h-px bg-gray-300" /></div>
+            <h2 className="text-5xl font-thin text-gray-800 italic mb-4">{t.journey}</h2>
+            <p className="text-gray-500 text-lg font-light">{t.journeySub}</p>
           </Reveal>
-
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            {t.airlines.slice(0, 4).map(({ name, price, duration, route, stops, color, flag, note }, i) => (
-              <Reveal key={name} direction={i % 2 === 0 ? 'left' : 'right'} delay={i * 100}>
-                <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 relative overflow-hidden"
+          <div className="grid md:grid-cols-2 gap-12">
+            {t.journeyItems.map(({ color, title, items, note }, i) => (
+              <Reveal key={title} direction={i === 0 ? 'left' : 'right'} delay={i * 150}>
+                <div className="bg-white rounded-[2rem] p-12 shadow-2xl border border-gray-100 relative overflow-hidden"
                   style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}
-                  onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.08)'; }}
+                  onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-6px)'; e.currentTarget.style.boxShadow = '0 32px 64px rgba(0,0,0,0.1)'; }}
                   onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}>
-                  <div className={`absolute top-0 right-0 w-24 h-24 bg-${color}-50 rounded-full -translate-y-12 translate-x-12`} />
+                  <div className={`absolute top-0 right-0 w-40 h-40 bg-${color}-50 rounded-full -translate-y-20 translate-x-20`} />
                   <div className="relative z-10">
-                    <div className="flex items-center justify-between mb-4">
-                      <div className="flex items-center space-x-3">
-                        <span className="text-3xl">{flag}</span>
-                        <h3 className={`text-2xl font-thin text-${color}-900 italic`}>{name}</h3>
-                      </div>
-                      <span className={`text-xs tracking-widest uppercase bg-${color}-100 text-${color}-700 px-3 py-1 rounded-full`}>{stops}</span>
+                    <h3 className={`text-3xl font-thin text-${color}-900 italic mb-8`}>{title}</h3>
+                    <div className="space-y-6 text-gray-600">
+                      {items.map(([label, value]) => (
+                        <div key={label} className="flex items-start space-x-4">
+                          <div className={`w-2 h-2 bg-${color}-400 rounded-full mt-2 shrink-0`} />
+                          <div><p className="font-medium text-gray-800">{label}</p><p className="text-gray-500">{value}</p></div>
+                        </div>
+                      ))}
                     </div>
-                    <div className="space-y-3 mb-4">
-                      <div className="flex items-center justify-between">
-                        <span className="text-gray-500 text-sm">Est. Return Fare</span>
-                        <span className={`text-${color}-700 font-medium`}>{price}</span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-gray-500 text-sm">Journey Time</span>
-                        <span className="text-gray-700">{duration}</span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-gray-500 text-sm">Route</span>
-                        <span className="text-gray-700 text-right text-sm">{route}</span>
-                      </div>
-                    </div>
-                    <div className={`bg-${color}-50 rounded-xl p-4`}>
-                      <p className={`text-${color}-700 text-sm italic`}>{note}</p>
+                    <div className={`bg-${color}-50 rounded-xl p-5 mt-8`}>
+                      <p className={`text-${color}-700 italic`}>{note}</p>
                     </div>
                   </div>
                 </div>
               </Reveal>
             ))}
           </div>
-
-          {/* Turkish Airlines — centred on its own row */}
-          <div className="flex justify-center mb-12">
-            <div className="w-full md:w-1/2">
-              {t.airlines.slice(4).map(({ name, price, duration, route, stops, color, flag, note }) => (
-                <Reveal key={name} direction="up" delay={400}>
-                  <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 relative overflow-hidden"
-                    style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}
-                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.08)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}>
-                    <div className={`absolute top-0 right-0 w-24 h-24 bg-${color}-50 rounded-full -translate-y-12 translate-x-12`} />
-                    <div className="relative z-10">
-                      <div className="flex items-center justify-between mb-4">
-                        <div className="flex items-center space-x-3">
-                          <span className="text-3xl">{flag}</span>
-                          <h3 className={`text-2xl font-thin text-${color}-900 italic`}>{name}</h3>
-                        </div>
-                        <span className={`text-xs tracking-widest uppercase bg-${color}-100 text-${color}-700 px-3 py-1 rounded-full`}>{stops}</span>
-                      </div>
-                      <div className="space-y-3 mb-4">
-                        <div className="flex items-center justify-between">
-                          <span className="text-gray-500 text-sm">Est. Return Fare</span>
-                          <span className={`text-${color}-700 font-medium`}>{price}</span>
-                        </div>
-                        <div className="flex items-center justify-between">
-                          <span className="text-gray-500 text-sm">Journey Time</span>
-                          <span className="text-gray-700">{duration}</span>
-                        </div>
-                        <div className="flex items-center justify-between">
-                          <span className="text-gray-500 text-sm">Route</span>
-                          <span className="text-gray-700 text-right text-sm">{route}</span>
-                        </div>
-                      </div>
-                      <div className={`bg-${color}-50 rounded-xl p-4`}>
-                        <p className={`text-${color}-700 text-sm italic`}>{note}</p>
-                      </div>
-                    </div>
-                  </div>
-                </Reveal>
-              ))}
-            </div>
-          </div>
-
-          <Reveal delay={300}>
-            <div className="bg-rose-50 rounded-2xl p-8 max-w-3xl mx-auto text-center space-y-4">
-              <HandHeart className="w-8 h-8 text-rose-500 mx-auto float" />
-              <p className="text-rose-800 font-medium">{t.flightsGroupNote}</p>
-              <div className="bg-white rounded-xl p-4 border border-rose-200">
-                <p className="text-rose-700 text-sm font-medium">{t.flightsContactBaggage}</p>
-              </div>
-              <p className="text-gray-400 text-xs italic">{t.flightsPriceNote}</p>
-            </div>
-          </Reveal>
         </div>
       </div>
-
 
       {/* ── GALLERY ── */}
       <div id="gallery" className="section-transition py-32 px-4 bg-gradient-to-b from-neutral-50 to-white">
@@ -1067,7 +840,7 @@ export default function App() {
           <Reveal className="text-center mb-16">
             <div className="flex items-center justify-center space-x-6 mb-8"><div className="w-16 h-px bg-gray-400" /><Flower2 className="w-8 h-8 text-gray-600 float-slow" /><Cross className="w-7 h-7 text-gray-500 float" /><div className="w-16 h-px bg-gray-400" /></div>
             <h2 className="text-5xl font-thin text-gray-800 italic mb-4">{t.rsvpTitle}</h2>
-            <p className="text-rose-600 text-base font-medium tracking-wide mt-2">Please respond by <strong className="font-bold text-rose-700">1st August 2026</strong></p>
+            <p className="text-gray-500 tracking-widest uppercase text-sm">{t.rsvpDeadline}</p>
           </Reveal>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {t.rsvpContacts.map(({ color, title, email, phone }, i) => (

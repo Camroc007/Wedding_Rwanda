@@ -55,8 +55,7 @@ const T = {
     safariTitle: 'Optional Safari Experience',
     safariSub: 'Saturday 5th June 2027 — Limited Places',
     safariDate: 'Saturday 5th June 2027',
-    safariItinerary: 'We will be staying in Kigali on the 4th. The safari will pick us up at 3am on the morning of the 5th. We return in the afternoon, stay the night in Kigali, and fly back on the 6th.',
-    safariNonSafari: 'Guests not joining the safari are welcome to remain with the Sisters and take the national bus from Butare to Kigali to catch their flight on the 6th.',
+    safariSpots: 'Maximum 30 guests — first come, first served',
     safariBooking: 'This is separate from your RSVP. Please contact Mary or Cormac directly to register your interest.',
     safariContact: 'To register for the safari, contact us directly:',
     dressRwanda: 'Dress Code: Traditional or Formal',
@@ -111,8 +110,8 @@ const T = {
       prayers: 'Special Prayer Intentions',
       accommodationPref: 'Accommodation Preference',
       accommodationOptions: ['Galileo Stadium Hotel (paid — group rate being arranged)', 'Free Community Accommodation at CSMCJ Mission House', 'Other (please specify below)'],
-      airlinePref: 'Flight Booking Preference',
-      airlineOptions: ['I want to be part of the group booking', 'I will book my own flight'],
+      airlinePref: 'Preferred Airline',
+      airlineOptions: ['RwandAir', 'Ethiopian Airways', 'Kenya Airways', 'Brussels Airlines', 'Turkish Airlines', 'Other / Not yet decided'],
       baggageLabel: 'Extra Baggage Allowance',
       baggageQuestion: 'Do you think you will have extra baggage allowance to carry donations?',
       baggageYes: 'Yes — I may have extra baggage',
@@ -157,8 +156,7 @@ const T = {
     safariTitle: 'Experiência de Safari Opcional',
     safariSub: 'Sábado, 5 de Junho de 2027 — Lugares Limitados',
     safariDate: 'Sábado, 5 de Junho de 2027',
-    safariItinerary: 'Ficaremos em Kigali no dia 4. O safari vem buscar-nos às 3h da manhã do dia 5. Regressamos de tarde, ficamos a noite em Kigali e voamos de regresso no dia 6.',
-    safariNonSafari: 'Os convidados que não participam no safari são bem-vindos a permanecer com as Irmãs e apanhar o autocarro nacional de Butare para Kigali para apanhar o voo no dia 6.',
+    safariSpots: 'Máximo de 30 convidados — por ordem de chegada',
     safariBooking: 'Esta experiência é separada do seu RSVP. Contacte diretamente a Mary ou o Cormac para registar o seu interesse.',
     safariContact: 'Para se registar no safari, contacte-nos diretamente:',
     dressRwanda: 'Código de Vestuário: Tradicional ou Formal',
@@ -213,8 +211,8 @@ const T = {
       prayers: 'Intenções de Oração Especiais',
       accommodationPref: 'Preferência de Alojamento',
       accommodationOptions: ['Galileo Stadium Hotel (pago — tarifa de grupo a confirmar)', 'Alojamento Gratuito na Casa de Missão CSMCJ', 'Outro (especifique abaixo)'],
-      airlinePref: 'Preferência de Reserva de Voo',
-      airlineOptions: ['Quero fazer parte da reserva de grupo', 'Vou reservar o meu próprio voo'],
+      airlinePref: 'Companhia Aérea Preferida',
+      airlineOptions: ['RwandAir', 'Ethiopian Airways', 'Kenya Airways', 'Brussels Airlines', 'Turkish Airlines', 'Outra / Ainda não decidi'],
       baggageLabel: 'Franquia de Bagagem Extra',
       baggageQuestion: 'Acha que terá franquia de bagagem extra para transportar donativos?',
       baggageYes: 'Sim — posso ter bagagem extra',
@@ -842,16 +840,13 @@ export default function App() {
                       <p className="text-gray-700"><strong>{t.safariDate}</strong></p>
                     </div>
                     <div className="flex items-start space-x-3">
-                      <Clock className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
-                      <p className="text-gray-700">{t.safariItinerary}</p>
+                      <Users className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
+                      <p className="text-gray-700">{t.safariSpots}</p>
                     </div>
                     <div className="flex items-start space-x-3">
                       <Star className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
                       <p className="text-gray-700">{t.safariBooking}</p>
                     </div>
-                  </div>
-                  <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 mb-6 text-left">
-                    <p className="text-amber-800 text-sm leading-relaxed">{t.safariNonSafari}</p>
                   </div>
                   <div className="bg-white border border-green-200 rounded-2xl p-6">
                     <p className="text-green-800 font-medium mb-4">{t.safariContact}</p>

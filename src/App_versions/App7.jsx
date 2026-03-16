@@ -52,13 +52,6 @@ const T = {
     ],
     missionDates: '28th May – 6th June 2027',
     missionNote: 'Optional participation for wedding guests who feel called to this mission of mercy.',
-    safariTitle: 'Optional Safari Experience',
-    safariSub: 'Saturday 5th June 2027 — Limited Places',
-    safariDate: 'Saturday 5th June 2027',
-    safariItinerary: 'We will be staying in Kigali on the 4th. The safari will pick us up at 3am on the morning of the 5th. We return in the afternoon, stay the night in Kigali, and fly back on the 6th.',
-    safariNonSafari: 'Guests not joining the safari are welcome to remain with the Sisters and take the national bus from Butare to Kigali to catch their flight on the 6th.',
-    safariBooking: 'This is separate from your RSVP. Please contact Mary or Cormac directly to register your interest.',
-    safariContact: 'To register for the safari, contact us directly:',
     dressRwanda: 'Dress Code: Traditional or Formal',
     dressRwandaDesc: 'Experience a beautiful Catholic ceremony in the Land of a Thousand Hills. Food reception and celebration to follow at the community.',
     groundsRules: 'Community Grounds Rules',
@@ -111,8 +104,8 @@ const T = {
       prayers: 'Special Prayer Intentions',
       accommodationPref: 'Accommodation Preference',
       accommodationOptions: ['Galileo Stadium Hotel (paid — group rate being arranged)', 'Free Community Accommodation at CSMCJ Mission House', 'Other (please specify below)'],
-      airlinePref: 'Flight Booking Preference',
-      airlineOptions: ['I want to be part of the group booking', 'I will book my own flight'],
+      airlinePref: 'Preferred Airline',
+      airlineOptions: ['RwandAir', 'Ethiopian Airways', 'Kenya Airways', 'Brussels Airlines', 'Turkish Airlines', 'Other / Not yet decided'],
       baggageLabel: 'Extra Baggage Allowance',
       baggageQuestion: 'Do you think you will have extra baggage allowance to carry donations?',
       baggageYes: 'Yes — I may have extra baggage',
@@ -154,13 +147,6 @@ const T = {
     ],
     missionDates: '28 de Maio – 6 de Junho de 2027',
     missionNote: 'Participação opcional para convidados do casamento que se sintam chamados a esta missão de misericórdia.',
-    safariTitle: 'Experiência de Safari Opcional',
-    safariSub: 'Sábado, 5 de Junho de 2027 — Lugares Limitados',
-    safariDate: 'Sábado, 5 de Junho de 2027',
-    safariItinerary: 'Ficaremos em Kigali no dia 4. O safari vem buscar-nos às 3h da manhã do dia 5. Regressamos de tarde, ficamos a noite em Kigali e voamos de regresso no dia 6.',
-    safariNonSafari: 'Os convidados que não participam no safari são bem-vindos a permanecer com as Irmãs e apanhar o autocarro nacional de Butare para Kigali para apanhar o voo no dia 6.',
-    safariBooking: 'Esta experiência é separada do seu RSVP. Contacte diretamente a Mary ou o Cormac para registar o seu interesse.',
-    safariContact: 'Para se registar no safari, contacte-nos diretamente:',
     dressRwanda: 'Código de Vestuário: Tradicional ou Formal',
     dressRwandaDesc: 'Experiencie uma bela cerimónia católica no Ruanda. Receção com comida e celebração a seguir na comunidade.',
     groundsRules: 'Regras dos Terrenos da Comunidade',
@@ -213,8 +199,8 @@ const T = {
       prayers: 'Intenções de Oração Especiais',
       accommodationPref: 'Preferência de Alojamento',
       accommodationOptions: ['Galileo Stadium Hotel (pago — tarifa de grupo a confirmar)', 'Alojamento Gratuito na Casa de Missão CSMCJ', 'Outro (especifique abaixo)'],
-      airlinePref: 'Preferência de Reserva de Voo',
-      airlineOptions: ['Quero fazer parte da reserva de grupo', 'Vou reservar o meu próprio voo'],
+      airlinePref: 'Companhia Aérea Preferida',
+      airlineOptions: ['RwandAir', 'Ethiopian Airways', 'Kenya Airways', 'Brussels Airlines', 'Turkish Airlines', 'Outra / Ainda não decidi'],
       baggageLabel: 'Franquia de Bagagem Extra',
       baggageQuestion: 'Acha que terá franquia de bagagem extra para transportar donativos?',
       baggageYes: 'Sim — posso ter bagagem extra',
@@ -777,10 +763,6 @@ export default function App() {
                         <div className="flex items-center space-x-3"><Calendar className="w-5 h-5 text-amber-600" /><p className="text-gray-800 font-light">Thursday, June 3rd, 2027</p></div>
                         <div className="flex items-center space-x-3"><Clock className="w-5 h-5 text-amber-600" /><p className="text-gray-800 font-light">11:00 AM</p></div>
                       </div>
-                      <div className="flex items-center space-x-3 bg-amber-50 rounded-xl px-4 py-3">
-                        <Calendar className="w-5 h-5 text-amber-500 shrink-0" />
-                        <p className="text-amber-800 font-light text-sm">Guests should plan to arrive <strong>Friday 28th May</strong> and depart <strong>Sunday 6th June 2027</strong></p>
-                      </div>
                       <div className="border-t border-gray-100 pt-6 flex items-start space-x-3">
                         <MapPin className="w-5 h-5 text-amber-600 mt-1 shrink-0" />
                         <div><p className="text-gray-800 font-light">Community Chapel of the Servos de Maria de Coração de Jesus</p><p className="text-gray-400 text-sm mt-1">Huye District, Butare</p></div>
@@ -818,54 +800,8 @@ export default function App() {
                   ))}
                 </div>
                 <div className="bg-orange-50 rounded-2xl p-8 text-center">
-                  <p className="text-gray-700 leading-relaxed mb-3">{t.missionNote}</p>
+                  <p className="text-gray-700 leading-relaxed mb-3"><strong>{t.missionDates}</strong> — {t.missionNote}</p>
                   <p className="text-orange-700 italic text-sm">{t.bibleMission} {t.bibleMissionRef}</p>
-                </div>
-              </div>
-            </Reveal>
-
-            {/* ── SAFARI ── */}
-            <Reveal delay={200} className="mt-10">
-              <div className="bg-white rounded-[2rem] p-12 shadow-2xl max-w-5xl mx-auto border border-green-200 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-48 h-48 bg-green-50 rounded-full -translate-y-24 translate-x-24" />
-                <div className="relative z-10 text-center">
-                  <div className="flex items-center justify-center space-x-4 mb-5">
-                    <span className="text-4xl">🦁</span>
-                    <span className="text-4xl">🌿</span>
-                    <span className="text-4xl">🐘</span>
-                  </div>
-                  <h3 className="text-3xl font-thin text-gray-800 italic mb-2">{t.safariTitle}</h3>
-                  <p className="text-green-700 tracking-widest uppercase text-xs mb-6">{t.safariSub}</p>
-                  <div className="bg-green-50 rounded-2xl p-8 text-left space-y-4 mb-6">
-                    <div className="flex items-start space-x-3">
-                      <Calendar className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
-                      <p className="text-gray-700"><strong>{t.safariDate}</strong></p>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <Clock className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
-                      <p className="text-gray-700">{t.safariItinerary}</p>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <Star className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
-                      <p className="text-gray-700">{t.safariBooking}</p>
-                    </div>
-                  </div>
-                  <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 mb-6 text-left">
-                    <p className="text-amber-800 text-sm leading-relaxed">{t.safariNonSafari}</p>
-                  </div>
-                  <div className="bg-white border border-green-200 rounded-2xl p-6">
-                    <p className="text-green-800 font-medium mb-4">{t.safariContact}</p>
-                    <div className="grid md:grid-cols-2 gap-4">
-                      <div className="text-center">
-                        <p className="text-gray-600 font-medium">Mary</p>
-                        <p className="text-green-700">+44 7729 361640</p>
-                      </div>
-                      <div className="text-center">
-                        <p className="text-gray-600 font-medium">Cormac</p>
-                        <p className="text-green-700">+353 851094610</p>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </Reveal>
@@ -978,31 +914,27 @@ export default function App() {
             <p className="text-gray-500 text-sm max-w-2xl mx-auto">{t.flightsDates}</p>
           </Reveal>
 
-          {(() => {
-            const colorMap = {
-              blue:   { bg: '#eff6ff', text: '#1d4ed8', badge: '#dbeafe', badgeText: '#1d4ed8', dot: '#bfdbfe' },
-              amber:  { bg: '#fffbeb', text: '#b45309', badge: '#fef3c7', badgeText: '#b45309', dot: '#fde68a' },
-              rose:   { bg: '#fff1f2', text: '#be123c', badge: '#ffe4e6', badgeText: '#be123c', dot: '#fecdd3' },
-              purple: { bg: '#faf5ff', text: '#7e22ce', badge: '#f3e8ff', badgeText: '#7e22ce', dot: '#e9d5ff' },
-              red:    { bg: '#fef2f2', text: '#b91c1c', badge: '#fee2e2', badgeText: '#b91c1c', dot: '#fecaca' },
-            };
-            const AirlineCard = ({ name, duration, route, stops, color, flag, note }) => {
-              const c = colorMap[color] || colorMap.blue;
-              return (
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            {t.airlines.slice(0, 4).map(({ name, price, duration, route, stops, color, flag, note }, i) => (
+              <Reveal key={name} direction={i % 2 === 0 ? 'left' : 'right'} delay={i * 100}>
                 <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 relative overflow-hidden"
                   style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}
                   onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.08)'; }}
                   onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}>
-                  <div className="absolute top-0 right-0 w-24 h-24 rounded-full -translate-y-12 translate-x-12" style={{ background: c.dot }} />
+                  <div className={`absolute top-0 right-0 w-24 h-24 bg-${color}-50 rounded-full -translate-y-12 translate-x-12`} />
                   <div className="relative z-10">
                     <div className="flex items-center justify-between mb-4">
                       <div className="flex items-center space-x-3">
                         <span className="text-3xl">{flag}</span>
-                        <h3 className="text-2xl font-thin italic" style={{ color: c.text }}>{name}</h3>
+                        <h3 className={`text-2xl font-thin text-${color}-900 italic`}>{name}</h3>
                       </div>
-                      <span className="text-xs tracking-widest uppercase px-3 py-1 rounded-full" style={{ background: c.badge, color: c.badgeText }}>{stops}</span>
+                      <span className={`text-xs tracking-widest uppercase bg-${color}-100 text-${color}-700 px-3 py-1 rounded-full`}>{stops}</span>
                     </div>
                     <div className="space-y-3 mb-4">
+                      <div className="flex items-center justify-between">
+                        <span className="text-gray-500 text-sm">Est. Return Fare</span>
+                        <span className={`text-${color}-700 font-medium`}>{price}</span>
+                      </div>
                       <div className="flex items-center justify-between">
                         <span className="text-gray-500 text-sm">Journey Time</span>
                         <span className="text-gray-700">{duration}</span>
@@ -1012,34 +944,56 @@ export default function App() {
                         <span className="text-gray-700 text-right text-sm">{route}</span>
                       </div>
                     </div>
-                    <div className="rounded-xl p-4" style={{ background: c.bg }}>
-                      <p className="text-sm italic" style={{ color: c.text }}>{note}</p>
+                    <div className={`bg-${color}-50 rounded-xl p-4`}>
+                      <p className={`text-${color}-700 text-sm italic`}>{note}</p>
                     </div>
                   </div>
                 </div>
-              );
-            };
-            return (
-              <>
-                <div className="grid md:grid-cols-2 gap-8 mb-8">
-                  {t.airlines.slice(0, 4).map(({ name, duration, route, stops, color, flag, note }, i) => (
-                    <Reveal key={name} direction={i % 2 === 0 ? 'left' : 'right'} delay={i * 100}>
-                      <AirlineCard name={name} duration={duration} route={route} stops={stops} color={color} flag={flag} note={note} />
-                    </Reveal>
-                  ))}
-                </div>
-                <div className="flex justify-center mb-12">
-                  <div className="w-full md:w-1/2">
-                    {t.airlines.slice(4).map(({ name, duration, route, stops, color, flag, note }) => (
-                      <Reveal key={name} direction="up" delay={400}>
-                        <AirlineCard name={name} duration={duration} route={route} stops={stops} color={color} flag={flag} note={note} />
-                      </Reveal>
-                    ))}
+              </Reveal>
+            ))}
+          </div>
+
+          {/* Turkish Airlines — centred on its own row */}
+          <div className="flex justify-center mb-12">
+            <div className="w-full md:w-1/2">
+              {t.airlines.slice(4).map(({ name, price, duration, route, stops, color, flag, note }) => (
+                <Reveal key={name} direction="up" delay={400}>
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 relative overflow-hidden"
+                    style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}
+                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.08)'; }}
+                    onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}>
+                    <div className={`absolute top-0 right-0 w-24 h-24 bg-${color}-50 rounded-full -translate-y-12 translate-x-12`} />
+                    <div className="relative z-10">
+                      <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-center space-x-3">
+                          <span className="text-3xl">{flag}</span>
+                          <h3 className={`text-2xl font-thin text-${color}-900 italic`}>{name}</h3>
+                        </div>
+                        <span className={`text-xs tracking-widest uppercase bg-${color}-100 text-${color}-700 px-3 py-1 rounded-full`}>{stops}</span>
+                      </div>
+                      <div className="space-y-3 mb-4">
+                        <div className="flex items-center justify-between">
+                          <span className="text-gray-500 text-sm">Est. Return Fare</span>
+                          <span className={`text-${color}-700 font-medium`}>{price}</span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span className="text-gray-500 text-sm">Journey Time</span>
+                          <span className="text-gray-700">{duration}</span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span className="text-gray-500 text-sm">Route</span>
+                          <span className="text-gray-700 text-right text-sm">{route}</span>
+                        </div>
+                      </div>
+                      <div className={`bg-${color}-50 rounded-xl p-4`}>
+                        <p className={`text-${color}-700 text-sm italic`}>{note}</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </>
-            );
-          })()}
+                </Reveal>
+              ))}
+            </div>
+          </div>
 
           <Reveal delay={300}>
             <div className="bg-rose-50 rounded-2xl p-8 max-w-3xl mx-auto text-center space-y-4">

@@ -66,14 +66,14 @@ const T = {
     accommodationTitle: 'Where to Stay', accommodationSub: 'Accommodation options in Butare, Rwanda',
     galileoTitle: '⭐ Our Top Recommendation', galileoName: 'Galileo Stadium Hotel', galileoNote: 'Closest hotel to the wedding venue. We are currently negotiating a group discount rate — please contact Cormac or Mary for the latest pricing.',
     galileoUrl: 'https://galileostadiumhotel.com/',
-    communityTitle: 'Free Accommodation — CSMCJ Mission House (Limited Availability)',
+    communityTitle: 'Free Accommodation — CSMCJ Mission House',
     communityDesc: 'The Sisters of the Congregation of the Servants of Mary of the Heart of Jesus (CSMCJ), within whose community grounds the wedding is taking place, have generously offered free accommodation within the grounds for all wedding guests.',
     communityDetails: ['Shared rooms: 4–5 people per room', 'Private toilet facilities included', 'Separate rooms: male-only / female-only / families', 'Located within the wedding venue grounds'],
     communityRules: '⚠️ Please note: Community Ground Rules apply',
     communityRulesItems: ['No alcohol on the premises', 'Modest and non-revealing clothing must be worn at all times', 'Respect the prayerful atmosphere of the mission community'],
     otherHotels: 'Other Hotels in Butare',
     flightsTitle: 'Getting There', flightsSub: 'Flights from London Heathrow to Kigali (RWI/KGL)',
-    flightsDates: 'Dates: Friday 28th May – Sunday 6th June 2027 (approx. 9 days)',
+    flightsDates: 'Indicative dates: Friday 28th May – Sunday 6th June 2027 (approx. 9 days)',
     flightsGroupNote: 'We are exploring group discount rates with each airline. If you have extra baggage allowance, please contact Cormac or Mary — we would love to fill it with donations for the mission!',
     flightsContactBaggage: 'Have extra baggage? Contact Cormac (+353 851094610) or Mary (+44 7729 361640)',
     airlines: [
@@ -99,8 +99,11 @@ const T = {
       { title: 'Celebrations', desc: 'Catering and decoration' },
     ],
     rsvpTitle: 'RSVP', rsvpDeadline: 'Please respond by 1st August 2026',
-    rsvpOr: 'Fill in the form below',
-    rsvpContacts: [],
+    rsvpOr: 'Or fill in the form below',
+    rsvpContacts: [
+      { color: 'amber', title: 'Portuguese & all other guests', email: 'alvesmary98@gmail.com', phone: '+44 7729 361640' },
+      { color: 'blue',  title: 'Irish & all other guests',      email: 'comckennaa@gmail.com',  phone: '+353 851094610' },
+    ],
     rsvpForm: { name: 'Full Name', email: 'Email Address', attending: 'Which celebration(s) will you attend?',
       rwanda: 'Rwanda Ceremony (June 2027)',
       mission: 'I would like to join the Mission', dietary: 'Dietary Requirements / Accessibility Needs',
@@ -165,14 +168,14 @@ const T = {
     accommodationTitle: 'Onde Ficar', accommodationSub: 'Opções de alojamento em Butare, Ruanda',
     galileoTitle: '⭐ A Nossa Principal Recomendação', galileoName: 'Galileo Stadium Hotel', galileoNote: 'O hotel mais próximo do local do casamento. Estamos a negociar uma tarifa de grupo — contacte o Cormac ou a Mary para os preços mais recentes.',
     galileoUrl: 'https://galileostadiumhotel.com/',
-    communityTitle: 'Alojamento Gratuito — Casa de Missão CSMCJ (Disponibilidade Limitada)',
+    communityTitle: 'Alojamento Gratuito — Casa de Missão CSMCJ',
     communityDesc: 'As Irmãs da Congregação das Servas de Maria do Coração de Jesus (CSMCJ), nos terrenos da comunidade onde o casamento terá lugar, ofereceram generosamente alojamento gratuito nos terrenos para todos os convidados.',
     communityDetails: ['Quartos partilhados: 4–5 pessoas por quarto', 'Instalações sanitárias privativas incluídas', 'Quartos separados: só para homens / só para mulheres / famílias', 'Localizado nos terrenos do local do casamento'],
     communityRules: '⚠️ Nota: aplicam-se regras dos terrenos da comunidade',
     communityRulesItems: ['Sem álcool nas instalações', 'Roupa modesta e não reveladora em todos os momentos', 'Respeite a atmosfera de oração da comunidade missionária'],
     otherHotels: 'Outros Hotéis em Butare',
     flightsTitle: 'Como Chegar', flightsSub: 'Voos de Londres Heathrow para Kigali (RWI/KGL)',
-    flightsDates: 'Datas: Sexta-feira 28 de Maio – Domingo 6 de Junho de 2027 (aprox. 9 dias)',
+    flightsDates: 'Datas indicativas: Sexta-feira 28 de Maio – Domingo 6 de Junho de 2027 (aprox. 9 dias)',
     flightsGroupNote: 'Estamos a explorar tarifas de grupo com cada companhia aérea. Se tiver franquia de bagagem extra, contacte o Cormac ou a Mary — adoraríamos enchê-la com donativos para a missão!',
     flightsContactBaggage: 'Tem bagagem extra? Contacte o Cormac (+353 851094610) ou Mary (+44 7729 361640)',
     airlines: [
@@ -198,8 +201,11 @@ const T = {
       { title: 'Celebrações', desc: 'Catering e decoração' },
     ],
     rsvpTitle: 'RSVP', rsvpDeadline: 'Por favor, responda até 1 de Agosto de 2026',
-    rsvpOr: 'Preencha o formulário abaixo',
-    rsvpContacts: [],
+    rsvpOr: 'Ou preencha o formulário abaixo',
+    rsvpContacts: [
+      { color: 'amber', title: 'Convidados domiciliados em Portugal e outros', email: 'alvesmary98@gmail.com', phone: '+44 7729 361640' },
+      { color: 'blue',  title: 'Convidados domiciliados na Irlanda e outros',  email: 'comckennaa@gmail.com',  phone: '+353 851094610' },
+    ],
     rsvpForm: { name: 'Nome Completo', email: 'Endereço de Email', attending: 'A que celebração(ões) irá?',
       rwanda: 'Cerimónia no Ruanda (Junho 2027)',
       mission: 'Gostaria de participar na Missão', dietary: 'Requisitos Alimentares / Necessidades de Acessibilidade',
@@ -455,7 +461,7 @@ const WEB3FORMS_KEY = '8ebd7fe2-03a7-4898-ad40-dea3fa2bda0a';
 
 function RSVPForm({ t }) {
   const tf = t.rsvpForm;
-  const [form, setForm] = useState({ name: '', email: '', mobile: '', rwanda: false, mission: false, guests: '', dietary: '', prayers: '', accommodationPref: '', accommodationOther: '', airlinePref: '', hasExtraBaggage: '', extraBaggageKg: '' });
+  const [form, setForm] = useState({ name: '', email: '', rwanda: false, mission: false, guests: '', dietary: '', prayers: '', accommodationPref: '', accommodationOther: '', airlinePref: '', hasExtraBaggage: '', extraBaggageKg: '' });
   const [status, setStatus] = useState('idle');
 
   const handle = e => {
@@ -493,11 +499,6 @@ function RSVPForm({ t }) {
           <label className="block text-gray-600 tracking-widest uppercase text-xs mb-2">{tf.email}</label>
           <input name="email" type="email" value={form.email} onChange={handle} required className="rsvp-input" />
         </div>
-      </div>
-
-      <div>
-        <label className="block text-gray-600 tracking-widest uppercase text-xs mb-2">Mobile Number (for WhatsApp Group)</label>
-        <input name="mobile" type="tel" value={form.mobile} onChange={handle} className="rsvp-input" placeholder="e.g. +44 7700 900000" />
       </div>
 
       <div>
@@ -1020,16 +1021,6 @@ export default function App() {
             };
             return (
               <>
-                <Reveal delay={100} className="mb-10">
-                  <div className="bg-rose-50 rounded-2xl p-8 max-w-3xl mx-auto text-center space-y-4">
-                    <HandHeart className="w-8 h-8 text-rose-500 mx-auto float" />
-                    <p className="text-rose-800 font-medium">{t.flightsGroupNote}</p>
-                    <div className="bg-white rounded-xl p-4 border border-rose-200">
-                      <p className="text-rose-700 text-sm font-medium">{t.flightsContactBaggage}</p>
-                    </div>
-                    <p className="text-gray-400 text-xs italic">{t.flightsPriceNote}</p>
-                  </div>
-                </Reveal>
                 <div className="grid md:grid-cols-2 gap-8 mb-8">
                   {t.airlines.slice(0, 4).map(({ name, duration, route, stops, color, flag, note }, i) => (
                     <Reveal key={name} direction={i % 2 === 0 ? 'left' : 'right'} delay={i * 100}>
@@ -1050,6 +1041,16 @@ export default function App() {
             );
           })()}
 
+          <Reveal delay={300}>
+            <div className="bg-rose-50 rounded-2xl p-8 max-w-3xl mx-auto text-center space-y-4">
+              <HandHeart className="w-8 h-8 text-rose-500 mx-auto float" />
+              <p className="text-rose-800 font-medium">{t.flightsGroupNote}</p>
+              <div className="bg-white rounded-xl p-4 border border-rose-200">
+                <p className="text-rose-700 text-sm font-medium">{t.flightsContactBaggage}</p>
+              </div>
+              <p className="text-gray-400 text-xs italic">{t.flightsPriceNote}</p>
+            </div>
+          </Reveal>
         </div>
       </div>
 
@@ -1080,6 +1081,32 @@ export default function App() {
         </div>
       </div>
 
+      {/* ── GIFTS ── */}
+      <div className="section-transition py-32 px-4 bg-gradient-to-b from-rose-50 via-white to-rose-50">
+        <div className="max-w-5xl mx-auto text-center space-y-12">
+          <Reveal><div className="flex items-center justify-center space-x-6"><div className="w-16 h-px bg-rose-300" /><div className="relative float"><Heart className="w-10 h-10 text-rose-500" /><Cross className="w-5 h-5 text-rose-300 absolute -top-1 -right-1" /></div><div className="w-16 h-px bg-rose-300" /></div></Reveal>
+          <Reveal delay={100}><h3 className="text-4xl font-thin text-gray-800 italic">{t.gifts}</h3></Reveal>
+          <Reveal delay={200}>
+            <div className="bg-white rounded-3xl p-14 shadow-2xl border border-rose-100">
+              <HandHeart className="w-12 h-12 text-rose-400 mx-auto mb-8 float" />
+              <p className="text-gray-600 leading-relaxed text-xl mb-10 italic">{t.giftsDesc}</p>
+              <div className="bg-rose-50 rounded-2xl p-10 mb-8">
+                <h4 className="text-xl text-rose-700 mb-6 font-light tracking-widest uppercase text-sm">{t.giftsSupport}</h4>
+                <div className="grid md:grid-cols-3 gap-8 text-left">
+                  {[House, Stethoscope, HandHeart].map((Icon, i) => (
+                    <div key={i} className="flex items-start space-x-3" style={{ transition: 'transform 0.3s' }} onMouseEnter={e => { e.currentTarget.style.transform = 'translateX(5px)'; }} onMouseLeave={e => { e.currentTarget.style.transform = ''; }}>
+                      <Icon className="w-5 h-5 text-rose-500 mt-1 shrink-0" />
+                      <div><p className="font-medium text-rose-800">{t.giftsItems[i].title}</p><p className="text-gray-500 text-sm">{t.giftsItems[i].desc}</p></div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <p className="text-rose-600 italic">{t.bibleGifts} {t.bibleGiftsRef}</p>
+            </div>
+          </Reveal>
+        </div>
+      </div>
+
       {/* ── RSVP ── */}
       <div id="rsvp" className="section-transition py-32 px-4 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-3xl mx-auto">
@@ -1088,7 +1115,20 @@ export default function App() {
             <h2 className="text-5xl font-thin text-gray-800 italic mb-4">{t.rsvpTitle}</h2>
             <p className="text-rose-600 text-base font-medium tracking-wide mt-2">Please respond by <strong className="font-bold text-rose-700">1st August 2026</strong></p>
           </Reveal>
-
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            {t.rsvpContacts.map(({ color, title, email, phone }, i) => (
+              <Reveal key={title} direction={i === 0 ? 'left' : 'right'} delay={i * 100}>
+                <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 text-center"
+                  style={{ transition: 'transform 0.3s, box-shadow 0.3s' }}
+                  onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 20px 40px rgba(0,0,0,0.08)'; }}
+                  onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}>
+                  <h4 className={`text-xl font-thin text-${color}-800 italic mb-4`}>{title}</h4>
+                  <p className="text-gray-600">{email}</p>
+                  <p className="text-gray-600 mt-1">{phone}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
           <Reveal delay={200}>
             <div className="bg-white rounded-3xl p-10 shadow-2xl border border-gray-100">
               <h3 className="text-2xl font-thin text-gray-700 italic text-center mb-8">{t.rsvpOr}</h3>

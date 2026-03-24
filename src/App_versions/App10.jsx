@@ -964,30 +964,6 @@ export default function App() {
               ))}
             </div>
           </Reveal>
-
-          {/* easyfundraising — Accommodation section */}
-          <Reveal delay={250} className="mt-16">
-            <div className="bg-gradient-to-br from-rose-50 to-amber-50 rounded-[2rem] p-10 max-w-4xl mx-auto border border-rose-200 shadow-lg text-center">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <HandHeart className="w-8 h-8 text-rose-500 float" />
-                <h3 className="text-2xl font-thin text-gray-800 italic">Support Our Rwanda Cause — for Free</h3>
-              </div>
-              <p className="text-gray-600 leading-relaxed mb-2 max-w-2xl mx-auto">
-                If you're booking your hotel through <strong className="text-rose-700">Booking.com</strong>, please use <strong className="text-rose-700">easyfundraising</strong> first — Booking.com will donate a portion of what you spend to our Rwanda cause at <strong>no extra cost to you</strong>. The donation is covered entirely by the retailer.
-              </p>
-              <p className="text-gray-500 text-sm mb-6 italic">Every booking you make can help the children and community in Rwanda 🇷🇼</p>
-              <a
-                href="https://www.easyfundraising.org.uk/support-a-good-cause/step-1/?char=356875&invite=1au47n&referral-campaign=c2s&utm_campaign=web-referral"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center space-x-2 bg-rose-500 hover:bg-rose-600 text-white px-8 py-4 rounded-2xl tracking-widest uppercase text-xs font-medium shadow-md transition-all"
-                style={{ transition: 'all 0.3s' }}
-              >
-                <HandHeart className="w-4 h-4" />
-                <span>Support via easyfundraising</span>
-              </a>
-            </div>
-          </Reveal>
         </div>
       </div>
 
@@ -1073,30 +1049,6 @@ export default function App() {
               </>
             );
           })()}
-
-          {/* easyfundraising — Flights section */}
-          <Reveal delay={500} className="mt-4">
-            <div className="bg-gradient-to-br from-sky-50 to-rose-50 rounded-[2rem] p-10 max-w-3xl mx-auto border border-sky-200 shadow-lg text-center">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <HandHeart className="w-8 h-8 text-rose-500 float" />
-                <h3 className="text-2xl font-thin text-gray-800 italic">Book Your Flights &amp; Support Rwanda</h3>
-              </div>
-              <p className="text-gray-600 leading-relaxed mb-2 max-w-2xl mx-auto">
-                If you're comfortable booking your flights through a third-party site like <strong className="text-sky-700">Skyscanner</strong>, please use <strong className="text-sky-700">easyfundraising</strong> first — they'll donate a portion of what you spend to our Rwanda cause at <strong>absolutely no extra cost to you</strong>. The retailer covers the donation entirely.
-              </p>
-              <p className="text-gray-500 text-sm mb-6 italic">A simple click can make a real difference for the people of Rwanda 🙏</p>
-              <a
-                href="https://www.easyfundraising.org.uk/support-a-good-cause/step-1/?char=356875&invite=1au47n&referral-campaign=c2s&utm_campaign=web-referral"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center space-x-2 bg-sky-600 hover:bg-sky-700 text-white px-8 py-4 rounded-2xl tracking-widest uppercase text-xs font-medium shadow-md transition-all"
-                style={{ transition: 'all 0.3s' }}
-              >
-                <HandHeart className="w-4 h-4" />
-                <span>Support via easyfundraising</span>
-              </a>
-            </div>
-          </Reveal>
 
         </div>
       </div>

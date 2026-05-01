@@ -55,7 +55,7 @@ const T = {
     safariTitle: 'Optional Safari Experience',
     safariSub: 'Saturday 5th June 2027 — Limited Places',
     safariDate: 'Saturday 5th June 2027',
-    safariItinerary: 'We will be staying in Kigali on the 4th. The safari will pick us up at 3am on the morning of the 5th. We return in the afternoon, stay the night in Kigali, and fly back on the 6th.',
+    safariItinerary: 'We will be staying in Kigali on the 4th. The safari will pick us up on the 5th. We return in the afternoon, stay the night in Kigali, and fly back on the 6th. We will cover the cost of transport but you will be required to pay the safari entrance price',
     safariNonSafari: 'Guests not joining the safari are welcome to remain with the Sisters and take the national bus from Butare to Kigali to catch their flight on the 6th.',
     safariBooking: 'This is separate from your RSVP. Please contact Mary or Cormac directly to register your interest.',
     safariContact: 'To register for the safari, contact us directly:',
@@ -68,7 +68,7 @@ const T = {
     galileoUrl: 'https://galileostadiumhotel.com/',
     communityTitle: 'Free Accommodation — CSMCJ Mission House (Limited Availability)',
     communityDesc: 'The Sisters of the Congregation of the Servants of Mary of the Heart of Jesus (CSMCJ), within whose community grounds the wedding is taking place, have generously offered free accommodation within the grounds for all wedding guests.',
-    communityDetails: ['Shared rooms: 4–5 people per room', 'Private toilet facilities included', 'Separate rooms: male-only / female-only / families', 'Located within the wedding venue grounds'],
+    communityDetails: ['Shared rooms: 4–5 people per room', 'Toilet facilities included', 'Separate rooms: male-only / female-only / families', 'Located within the wedding venue grounds'],
     communityRules: '⚠️ Please note: Community Ground Rules apply',
     communityRulesItems: ['No alcohol on the premises', 'Modest and non-revealing clothing must be worn at all times', 'Respect the prayerful atmosphere of the mission community'],
     otherHotels: 'Other Hotels in Butare',
@@ -778,7 +778,7 @@ export default function App() {
                       </div>
                       <div className="flex items-center space-x-3 bg-amber-50 rounded-xl px-4 py-3">
                         <Calendar className="w-5 h-5 text-amber-500 shrink-0" />
-                        <p className="text-amber-800 font-light text-sm">Guests should plan to arrive <strong>Friday 28th May</strong> and depart <strong>Sunday 6th June 2027</strong></p>
+                        <p className="text-amber-800 font-light text-sm">Guests should plan to arrive <strong>Saturday 29th May(Leaving on 28th)</strong> and depart <strong>Sunday 6th June 2027</strong></p>
                       </div>
                       <div className="border-t border-gray-100 pt-6 flex items-start space-x-3">
                         <MapPin className="w-5 h-5 text-amber-600 mt-1 shrink-0" />

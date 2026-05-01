@@ -73,7 +73,7 @@ const T = {
     communityRulesItems: ['No alcohol on the premises', 'Modest and non-revealing clothing must be worn at all times', 'Respect the prayerful atmosphere of the mission community'],
     otherHotels: 'Other Hotels in Butare',
     flightsTitle: 'Getting There', flightsSub: 'Flights from London Heathrow to Kigali (RWI/KGL)',
-    flightsDates: 'Dates: Friday 28th May – Sunday 6th June 2027 (approx. 9 days)',
+    flightsDates: 'Dates: Friday 28th May – Sunday 6th June 2027 (approx. 9 days). Aim to arrive in Kigali airport on the 29th',
     flightsGroupNote: 'We are exploring group discount rates with each airline. If you have extra baggage allowance, please contact Cormac or Mary — we would love to fill it with donations for the mission!',
     flightsContactBaggage: 'Have extra baggage? Contact Cormac (+353 851094610) or Mary (+44 7729 361640)',
     airlines: [
@@ -778,7 +778,7 @@ export default function App() {
                       </div>
                       <div className="flex items-center space-x-3 bg-amber-50 rounded-xl px-4 py-3">
                         <Calendar className="w-5 h-5 text-amber-500 shrink-0" />
-                        <p className="text-amber-800 font-light text-sm">Guests should plan to arrive <strong>Saturday 29th May(Leaving on 28th)</strong> and depart <strong>Sunday 6th June 2027</strong></p>
+                        <p className="text-amber-800 font-light text-sm">Guests should plan to arrive <strong>Saturday 29th May(Leaving on evening of 28th)</strong> and depart <strong>Sunday 6th June 2027</strong></p>
                       </div>
                       <div className="border-t border-gray-100 pt-6 flex items-start space-x-3">
                         <MapPin className="w-5 h-5 text-amber-600 mt-1 shrink-0" />

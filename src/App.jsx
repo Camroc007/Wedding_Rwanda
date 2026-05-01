@@ -503,7 +503,7 @@ function RSVPForm({ t }) {
       <div>
         <label className="block text-gray-600 tracking-widest uppercase text-xs mb-4">{tf.attending}</label>
         <div className="space-y-3">
-          {[['rwanda', tf.rwanda, 'amber'], ['mission', tf.mission, 'orange']].map(([key, label, color]) => (
+          {[['rwanda', tf.rwanda, 'amber'], ['mission', tf.mission, 'amber']].map(([key, label, color]) => (
             <label key={key} className="flex items-center space-x-3 cursor-pointer group">
               <input type="checkbox" name={key} checked={form[key]} onChange={handle} className="sr-only" />
               <div className={`w-5 h-5 rounded border-2 flex items-center justify-center transition-all ${form[key] ? `bg-${color}-500 border-${color}-500` : 'border-gray-300'}`}

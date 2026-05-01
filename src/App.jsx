@@ -505,11 +505,11 @@ function RSVPForm({ t }) {
         <div className="space-y-3">
           {[['rwanda', tf.rwanda, 'amber'], ['mission', tf.mission, 'orange']].map(([key, label, color]) => (
             <label key={key} className="flex items-center space-x-3 cursor-pointer group">
+              <input type="checkbox" name={key} checked={form[key]} onChange={handle} className="sr-only" />
               <div className={`w-5 h-5 rounded border-2 flex items-center justify-center transition-all ${form[key] ? `bg-${color}-500 border-${color}-500` : 'border-gray-300'}`}
                 style={{ transition: 'all 0.2s' }}>
                 {form[key] && <div className="w-2 h-2 bg-white rounded-sm" />}
               </div>
-              <input type="checkbox" name={key} checked={form[key]} onChange={handle} className="sr-only" />
               <span className="text-gray-700 text-lg">{label}</span>
             </label>
           ))}

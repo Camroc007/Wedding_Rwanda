@@ -65,7 +65,7 @@ const T = {
     groundsRulesItems: ['No alcohol on the premises', 'Modest and non-revealing clothing at all times', 'Respect the prayerful atmosphere of the mission'],
     accommodationTitle: 'Where to Stay', accommodationSub: 'Accommodation options in Butare, Rwanda',
     galileoTitle: '⭐ Our Top Recommendation', galileoName: 'Galileo Stadium Hotel', galileoNote: 'Closest hotel to the wedding venue. We are currently negotiating a group discount rate — please contact Cormac or Mary for the latest pricing.',
-    galileoUrl: 'https://galileostadiumhotel.com/',
+    galileoUrl: 'https://galileostadiumhotels.com/',
     communityTitle: 'Free Accommodation — CSMCJ Mission House (Limited Availability)',
     communityDesc: 'The Sisters of the Congregation of the Servants of Mary of the Heart of Jesus (CSMCJ), within whose community grounds the wedding is taking place, have generously offered free accommodation within the grounds for all wedding guests.',
     communityDetails: ['Shared rooms: 4–5 people per room', 'Toilet facilities included', 'Separate rooms: male-only / female-only / families', 'Located within the wedding venue grounds'],

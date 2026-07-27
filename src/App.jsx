@@ -87,7 +87,7 @@ const T = {
     summer: 'Summer 2027', timeTBA: 'Time TBA',
     journey: 'Journey Information', journeySub: 'Join us for this unique celebration of love and faith',
     journeyItems: [
-      { color: 'amber', title: 'Rwanda', items: [['Airport', 'Kigali International Airport (KGL)'], ['Dates', '28th May – 6th June 2027'], ['RSVP', 'By 1st August 2026 — guests added to WhatsApp group for coordination.']], note: 'Experience the warmth of Rwandan hospitality' },
+      { color: 'amber', title: 'Rwanda', items: [['Airport', 'Kigali International Airport (KGL)'], ['Dates', '28th May – 6th June 2027'], ['RSVP', 'Guests added to WhatsApp group for coordination.']], note: 'Experience the warmth of Rwandan hospitality' },
     ],
     gallery: 'Our Story in Images', galleryHint: 'Click any image to explore',
     gifts: 'Gifts of Love & Service',

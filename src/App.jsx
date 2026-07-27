@@ -98,7 +98,7 @@ const T = {
       { title: 'Project Indabo', desc: 'Rwandan children — food, clothes, shelter' },
       { title: 'Celebrations', desc: 'Catering and decoration' },
     ],
-    rsvpTitle: 'RSVP', rsvpDeadline: 'Please respond by 1st August 2026',
+    rsvpTitle: 'RSVP', rsvpDeadline: '',
     rsvpOr: 'Fill in the form below',
     rsvpContacts: [],
     rsvpForm: { name: 'Full Name', email: 'Email Address', attending: 'Which celebration(s) will you attend?',
